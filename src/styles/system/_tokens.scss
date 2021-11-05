@@ -1,0 +1,110 @@
+/****
+  Tokens
+****/
+
+// Media Queries
+  // @media (min-width: $mq-tablet) {}
+  $mq-ip5:            321px;
+  $mq-ip6:            375px;
+  $mq-ip6p:           414px;
+  $mq-phonexl:        576px;
+  $mq-tablet:         768px;
+  $mq-laptop:         992px;
+  $mq-desktop:        1200px;
+  $mq-wide:           1400px;
+
+// Colors
+  $color-black: #262521;
+  $color-gray: #8A8988;
+  $color-beige: #F0EFED;
+  $color-white: #FCFBF9;
+
+// Space
+  $space-x: 0.5rem;
+  $space-x1: $space-x * 2;
+  $space-x2: $space-x1 * 2;
+  $space-x4: $space-x2 * 2;
+  $space-x8: $space-x4 * 2;
+  $space-x16: $space-x8 * 2;
+  $space-x32: $space-x16 * 2;
+
+// Type
+  $font-primary: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  $font-secondary: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  $font-code: "Roboto Mono", monospace;
+
+  $fw-l: 300;
+  $fw-m: 500;
+  $fw-b: 700;
+
+  // Type System
+    .t-96 {
+      @include font-size(72);
+      line-height: 1.1;
+      @media (min-width: $mq-tablet) {
+        @include font-size(96);
+      }
+    }
+    .t-72 {
+      @include font-size(64);
+      line-height: 1.1;
+      @media (min-width: $mq-tablet) {
+        @include font-size(72);
+      }
+    }
+    .t-64 {
+      @include font-size(56);
+      line-height: 1.25;
+      @media (min-width: $mq-tablet) {
+        @include font-size(64);
+      }
+    }
+    .t-56 {
+      @include font-size(48);
+      line-height: 1.25;
+      @media (min-width: $mq-tablet) {
+        @include font-size(56);
+      }
+    }
+    .t-48 {
+      @include font-size(36);
+      line-height: 1.25;
+      @media (min-width: $mq-tablet) {
+        @include font-size(48);
+      }
+    }
+    .t-36 {
+      @include font-size(24);
+      line-height: 1.5;
+      @media (min-width: $mq-tablet) {
+        @include font-size(36);
+      }
+    }
+    .t-24 {
+      @include font-size(18);
+      line-height: 1.5;
+      @media (min-width: $mq-tablet) {
+        @include font-size(24);
+      }
+    }
+    .t-18 {
+      @include font-size(14);
+      line-height: 1.5;
+      @media (min-width: $mq-tablet) {
+        @include font-size(18);
+      }
+    }
+    .t-14 {
+      @include font-size(10);
+      line-height: 1.5;
+      @media (min-width: $mq-tablet) {
+        @include font-size(14);
+      }
+    }
+
+  // Headers
+    h1, h2, h3, h4, h5, h6 {
+      color: $color-black;
+      margin: 0 0 $space-x1 0;
+      letter-spacing: -0.07rem;
+    }

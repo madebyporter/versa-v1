@@ -1,0 +1,11 @@
+.block-hero {
+  padding-top: $space-x16;
+  padding-bottom: $space-x8;
+  .block-content {
+    grid-column-start: 2;
+    grid-column-end: 11;
+  }
+  .block-header {
+    @extend .t-96;
+  }
+}

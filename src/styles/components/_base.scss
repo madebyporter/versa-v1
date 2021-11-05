@@ -1,0 +1,35 @@
+/****
+  Base
+****/
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  background: $color-beige;
+  @include font-size(12);
+  font-family: $font-secondary;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @media (min-width: $mq-tablet) {
+    @include font-size(12);
+  }
+  &.overflow {
+    overflow: hidden;
+  }
+  ::selection {
+    background: $color-black; /* WebKit/Blink Browsers */
+    color: $color-beige;
+  }
+  ::-moz-selection {
+    background: $color-black; /* Gecko Browsers */
+    color: $color-beige;
+  }
+}

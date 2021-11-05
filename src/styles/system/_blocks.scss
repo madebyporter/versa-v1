@@ -1,0 +1,40 @@
+
+main {
+  @extend .grid-wrap;
+}
+
+.block {
+  @extend .grid;
+  padding-top: $space-x8;
+  padding-bottom: $space-x8;
+  margin: 0;
+}
+
+.block-section {
+  // Header
+  .block-header {
+    border-bottom: 1px solid $color-black;
+    grid-column: 1/13;
+    @extend .grid;
+    padding-bottom: $space-x2;
+
+    // Header Content
+    .block-header-content {
+      grid-column: 4/13;
+      @extend .t-24;
+    }
+  }
+}
+
+.block-slider {
+  // Content
+  .block-content {
+    grid-column: 1/13;
+  }
+  .slider {
+    @extend .grid;
+  }
+  .slider-position {
+    grid-column: 3/13;
+  }
+}

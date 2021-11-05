@@ -1,0 +1,12 @@
+$col: 12;
+$gridGap: 2rem;
+
+.grid-wrap {
+  // padding: $gridGap;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat($col, 1fr);
+  grid-gap: $gridGap;
+}
