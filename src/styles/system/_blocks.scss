@@ -5,8 +5,8 @@ main {
 
 .block {
   @extend .grid;
-  padding-top: $space-x8;
-  padding-bottom: $space-x8;
+  padding-top: $space-x16;
+  padding-bottom: $space-x16;
   margin: 0;
 }
 
@@ -14,27 +14,23 @@ main {
   // Header
   .block-header {
     border-bottom: 1px solid $color-black;
-    grid-column: 1/13;
+    @extend .g-1-13;
     @extend .grid;
-    padding-bottom: $space-x2;
-
+    padding-bottom: $space-x8;
+    margin-bottom: $space-x4;
     // Header Content
-    .block-header-content {
+    .block-header-title {
       grid-column: 4/13;
       @extend .t-24;
+      margin: 0;
     }
   }
-}
-
-.block-slider {
-  // Content
   .block-content {
-    grid-column: 1/13;
-  }
-  .slider {
-    @extend .grid;
-  }
-  .slider-position {
-    grid-column: 3/13;
+    padding-top: $space-x4;
+    padding-bottom: $space-x4;
+    // @extend .g-4-12;
+    &:last-child {
+      padding-bottom: 0;
+    }
   }
 }

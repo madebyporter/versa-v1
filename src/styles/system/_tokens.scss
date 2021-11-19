@@ -38,73 +38,81 @@
   $fw-b: 700;
 
   // Type System
-    .t-96 {
+  .t-96 {
+    @include font-size(72);
+    line-height: 1.1;
+    @media (min-width: $mq-tablet) {
+      @include font-size(96);
+    }
+  }
+  .t-72 {
+    @include font-size(64);
+    line-height: 1.1;
+    @media (min-width: $mq-tablet) {
       @include font-size(72);
-      line-height: 1.1;
-      @media (min-width: $mq-tablet) {
-        @include font-size(96);
-      }
     }
-    .t-72 {
+  }
+  .t-64 {
+    @include font-size(56);
+    line-height: 1.25;
+    @media (min-width: $mq-tablet) {
       @include font-size(64);
-      line-height: 1.1;
-      @media (min-width: $mq-tablet) {
-        @include font-size(72);
-      }
     }
-    .t-64 {
+  }
+  .t-56 {
+    @include font-size(48);
+    line-height: 1.25;
+    @media (min-width: $mq-tablet) {
       @include font-size(56);
-      line-height: 1.25;
-      @media (min-width: $mq-tablet) {
-        @include font-size(64);
-      }
     }
-    .t-56 {
+  }
+  .t-48 {
+    @include font-size(36);
+    line-height: 1.25;
+    @media (min-width: $mq-tablet) {
       @include font-size(48);
-      line-height: 1.25;
-      @media (min-width: $mq-tablet) {
-        @include font-size(56);
-      }
     }
-    .t-48 {
+  }
+  .t-36 {
+    @include font-size(24);
+    line-height: 1.5;
+    @media (min-width: $mq-tablet) {
       @include font-size(36);
-      line-height: 1.25;
-      @media (min-width: $mq-tablet) {
-        @include font-size(48);
-      }
     }
-    .t-36 {
+  }
+  .t-24 {
+    @include font-size(18);
+    line-height: 1.5;
+    @media (min-width: $mq-tablet) {
       @include font-size(24);
-      line-height: 1.5;
-      @media (min-width: $mq-tablet) {
-        @include font-size(36);
-      }
     }
-    .t-24 {
+  }
+  .t-18 {
+    @include font-size(14);
+    line-height: 1.5;
+    @media (min-width: $mq-tablet) {
       @include font-size(18);
-      line-height: 1.5;
-      @media (min-width: $mq-tablet) {
-        @include font-size(24);
-      }
     }
-    .t-18 {
+  }
+  .t-14 {
+    @include font-size(10);
+    line-height: 1.5;
+    @media (min-width: $mq-tablet) {
       @include font-size(14);
-      line-height: 1.5;
-      @media (min-width: $mq-tablet) {
-        @include font-size(18);
-      }
     }
-    .t-14 {
-      @include font-size(10);
-      line-height: 1.5;
-      @media (min-width: $mq-tablet) {
-        @include font-size(14);
-      }
-    }
+  }
 
   // Headers
-    h1, h2, h3, h4, h5, h6 {
-      color: $color-black;
-      margin: 0 0 $space-x1 0;
-      letter-spacing: -0.07rem;
+  h1, h2, h3, h4, h5, h6 {
+    color: $color-black;
+    margin: 0 0 $space-x4 0;
+    letter-spacing: -0.07rem;
+  }
+
+  // Paragraphs {
+  p {
+    margin: 0 0 $space-x2 0;
+    &:last-child {
+      margin: 0 0 0 0;
     }
+  }

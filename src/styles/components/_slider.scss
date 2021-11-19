@@ -1,4 +1,16 @@
 
+.block-slider {
+  // Content
+  .block-content {
+    grid-column: 1/13;
+  }
+  .slider {
+    @extend .grid;
+  }
+  .slider-position {
+    grid-column: 3/13;
+  }
+}
 .slider {
   position: relative;
   width: 100%;
@@ -26,4 +38,10 @@
   overflow: hidden;
   width: 500px;
   height: inherit;
+}
+.slider-meta-header {
+  @extend .t-18;
+}
+.slider-meta-desc {
+  @extend .t-18;
 }

@@ -3,14 +3,24 @@
 ****/
 
   .header {
+    @extend .grid;
+    padding-top: $space-x8;
+    padding-bottom: $space-x8;
+    margin: 0;
+  }
+  .header-logo {
+    height: 62px;
+    width: 89px;
     position: fixed;
-    top: $space-x2;
-    left: $space-x2;
+    top: $space-x8;
+    left: $space-x4;
     z-index: 1000;
-    a {
-      color: $color-black;
-      @extend .t-36;
-      letter-spacing: -0.15rem;
-      text-decoration: none;
+    img {
+      width: 100%;
+      height: auto;
     }
+  }
+  .header-content {
+    grid-column-start: 4;
+    grid-column-end: 12;
   }

@@ -1,9 +1,9 @@
 .block-hero {
-  padding-top: $space-x16;
+  padding-top: $space-x8;
   padding-bottom: $space-x8;
   .block-content {
-    grid-column-start: 2;
-    grid-column-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 12;
   }
   .block-header {
     @extend .t-96;
