@@ -1,6 +1,9 @@
 .footer {
   @extend .grid;
-  padding: $space-x4 0;
+  padding: $space-x2;
+  @media (min-width: $mq-laptop) {
+    padding: $space-x4 0;
+  }
 }
 .footer-content {
   // @extend .g-4-13;

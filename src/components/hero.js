@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 const Hero = ({ heroText }) => (
   <section className="block block-hero">
-    <div className="block-content">
+    <div className="block-content g-m-1-13 g-l-3-13 g-4-13">
       <h2 className="block-header">{heroText}</h2>
     </div>
   </section>

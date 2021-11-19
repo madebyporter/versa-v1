@@ -2,10 +2,16 @@
   padding-top: $space-x8;
   padding-bottom: $space-x8;
   .block-content {
-    grid-column-start: 4;
-    grid-column-end: 12;
   }
   .block-header {
-    @extend .t-96;
+    @include font-size(36);
+    line-height: 1.2;
+    margin: 0;
+    @media (min-width: $mq-tablet) {
+      @include font-size(64);
+    }
+    @media (min-width: $mq-desktop) {
+      @include font-size(96);
+    }
   }
 }

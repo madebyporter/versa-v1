@@ -34,8 +34,8 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main className="main">{children}</main>
       <footer className="footer g-align-items-center">
-        <div className="footer-content t-18 g-4-5">Follow Me</div>
-        <nav className="nav-horz t-18 g-5-13">
+        <div className="footer-content t-18 g-m-1-13 g-t-1-3 g-l-3-5 g-4-5">Follow Me</div>
+        <nav className="nav-horz t-18 g-m-1-13 g-t-3-13 g-l-5-13 g-5-13">
           <a href="https://www.twitter.com/madebyporter"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
           <a href="https://www.instagram.com/madebyporter"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
           <a href="https://www.dribbble.com/madebyporter"><FontAwesomeIcon icon={['fab', 'dribbble']} /></a>

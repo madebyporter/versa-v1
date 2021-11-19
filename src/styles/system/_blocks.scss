@@ -4,30 +4,36 @@ main {
 }
 
 .block {
+  padding: $space-x8 $space-x2;
   @extend .grid;
-  padding-top: $space-x16;
-  padding-bottom: $space-x16;
   margin: 0;
+  @media (min-width: $mq-laptop) {
+    padding: $space-x16 0;
+  }
 }
 
 .block-section {
   // Header
   .block-header {
     border-bottom: 1px solid $color-black;
-    @extend .g-1-13;
     @extend .grid;
-    padding-bottom: $space-x8;
-    margin-bottom: $space-x4;
+    padding-bottom: $space-x4;
+    margin-bottom: $space-x2;
+    @media (min-width: $mq-tablet) {
+      padding-bottom: $space-x8;
+      margin-bottom: $space-x4;
+    }
     // Header Content
     .block-header-title {
-      grid-column: 4/13;
       @extend .t-24;
       margin: 0;
     }
   }
   .block-content {
-    padding-top: $space-x4;
-    padding-bottom: $space-x4;
+    padding: $space-x2 0;
+    @media (min-width: $mq-tablet) {
+      padding: $space-x4 0;
+    }
     // @extend .g-4-12;
     &:last-child {
       padding-bottom: 0;

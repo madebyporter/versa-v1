@@ -4,23 +4,40 @@
 
   .header {
     @extend .grid;
-    padding-top: $space-x8;
-    padding-bottom: $space-x8;
+    padding: $space-x8 $space-x2 $space-x2;
+    @media (min-width: $mq-laptop) {
+      padding: $space-x8 0;
+    }
     margin: 0;
   }
   .header-logo {
-    height: 62px;
-    width: 89px;
-    position: fixed;
-    top: $space-x8;
-    left: $space-x4;
+    height: auto;
+    margin: 0;
+    position: relative;
+    width: 60px;
     z-index: 1000;
+    @media (min-width: $mq-laptop) {
+      height: 62px;
+      left: $space-x4;
+      position: fixed;
+      top: $space-x8;
+      width: 89px;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
     img {
       width: 100%;
       height: auto;
     }
   }
   .header-content {
-    grid-column-start: 4;
-    grid-column-end: 12;
+    display: none;
+    margin-bottom: 0;
+    @media (min-width: $mq-laptop) {
+      display: block;
+    }
   }
