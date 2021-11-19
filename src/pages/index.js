@@ -19,7 +19,7 @@ const IndexPage = () => (
       </header>
       <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
         <h3 className="t-36 block-content-title">SSFN</h3>
-        <p className="t-36">Co-founded a venture agency with Stephen Miller that designs systems for start-ups, small businesses &amp; solopreneurs. Currently, we’re focused on building a digital system for a transportation &amp; housing company. <a href="https://www.ssfn.io">Visit the site</a>.</p>
+        <p className="t-36">Co-founded a venture agency with <a href="https://www.stephenlamiller.com">Stephen Miller</a> that designs systems for start-ups, small businesses &amp; solopreneurs. Currently, we’re focused on building a digital system for a transportation &amp; housing company. <a href="https://www.ssfn.io">Visit the site</a>.</p>
       </div>
       <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
         <h3 className="t-36 block-content-title">Creative Freelance Consulting</h3>
