@@ -129,32 +129,3 @@
       color: $color-gray;
     }
   }
-
-  // Status
-  .status {
-    display: inline-block;
-    padding: 0;
-    width: 8px;
-    height: 8px;
-    border-radius: 20px;
-  }
-  .status-active-dead {
-    background: #F20049;
-  }
-  .status-active-partial {
-    background: #F2CB00;
-  }
-  .status-active-full {
-    background: #6BF200;
-  }
-  .status-label {
-    color: $color-gray;
-    font-weight: $fw-b;
-    text-transform: uppercase;
-    letter-spacing: 0.07rem;
-  }
-  .status-nav {
-    @media (min-width: $mq-tablet) {
-      justify-content: end;
-    }
-  }
