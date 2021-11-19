@@ -93,16 +93,16 @@ const IndexPage = () => (
           </li>
           <li>
             <ul className="list-item-columns g-align-end">
-              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Hyrecar</li>
-              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">Freelance Product Designer</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2018-2019</li>
+              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Silicon Beach Talent</li>
+              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">Freelance Web Designer</li>
+              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2016-2017</li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-end">
               <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Newscrack</li>
               <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">Freelance UI Designer</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2016-2018</li>
+              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2015-2017</li>
             </ul>
           </li>
           <li>
@@ -121,9 +121,16 @@ const IndexPage = () => (
           </li>
           <li>
             <ul className="list-item-columns g-align-end">
+              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Bonqo</li>
+              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">UI Designer</li>
+              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2011-2012</li>
+            </ul>
+          </li>
+          <li>
+            <ul className="list-item-columns g-align-end">
               <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Buzzhoney</li>
               <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">Visual Designer</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2007-2011</li>
+              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2007-2010</li>
             </ul>
           </li>
           <li>
