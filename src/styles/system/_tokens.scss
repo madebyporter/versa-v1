@@ -109,10 +109,23 @@
     letter-spacing: -0.07rem;
   }
 
-  // Paragraphs {
+  // Paragraphs
   p {
     margin: 0 0 $space-x2 0;
     &:last-child {
       margin: 0 0 0 0;
+    }
+  }
+
+  // Links
+  a {
+    border-bottom: 3px solid $color-black;
+    color: $color-black;
+    font-weight: $fw-b;
+    padding-bottom: 3px;
+    text-decoration: none;
+    &:hover {
+      border-bottom: 6px solid $color-gray;
+      color: $color-gray;
     }
   }

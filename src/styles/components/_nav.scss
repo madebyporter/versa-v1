@@ -2,4 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: $space-x2;
+  a {
+    border: 0;
+    text-decoration: none;
+  }
 }

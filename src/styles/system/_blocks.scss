@@ -40,3 +40,27 @@ main {
     }
   }
 }
+.block-portfolio {
+  align-items: center;
+  background: $color-white;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: $space-x8 $space-x2;
+  @media (min-width: $mq-laptop) {
+    border-radius: 4px;
+    margin: $space-x4;
+    padding: $space-x16 $space-x4;
+  }
+  .block-portfolio-img {
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.05);
+    width: 80%;
+    @media (min-width: $mq-laptop) {
+      border-radius: 8px;
+      width: 62%;
+    }
+  }
+}
