@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 import { useState, useEffect } from 'react';
 
 
-const cursor = () => {
+const Cursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [hidden, setHidden] = useState(false);
   const [click, setClick] = useState(false);
@@ -82,4 +82,4 @@ const cursor = () => {
   );
 };
 
-export default cursor
+export default Cursor

@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import Cursor from '../components/Cursor';
+import Cursor from './cursor';
 
 import "../styles/site.scss"
 
