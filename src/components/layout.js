@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
+import Cursor from '../components/Cursor';
 
 import "../styles/site.scss"
 
@@ -31,6 +32,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Cursor />
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main className="main">{children}</main>
       <footer className="footer g-align-items-center">

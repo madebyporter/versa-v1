@@ -1,0 +1,29 @@
+// Cursor by PopEating https://javascript.plainenglish.io/how-to-create-a-custom-css-pointer-in-react-2d4684215564
+
+.cursor {
+  width: 16px;
+  height: 16px;
+  background: $color-black;
+  border-radius: 100%;
+  position: fixed;
+  transform: translate(-50%, -50%) scale(1);
+  @include transition;
+  transition-property: opacity, background-color, transform;
+  z-index: 99;
+  pointer-events: none;
+}
+html,body {
+  cursor: none
+}
+html *,body * {
+  cursor: none;
+}
+.c--hidden {
+  opacity: 0;
+}
+.c--click {
+  transform: translate(-50%, -50%) scale(2);
+}
+.c--hover {
+  transform: translate(-50%, -50%) scale(2);
+}
