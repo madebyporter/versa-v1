@@ -1,9 +1,11 @@
-// Cursor by PopEating https://javascript.plainenglish.io/how-to-create-a-custom-css-pointer-in-react-2d4684215564
+// cursor by PopEating https://javascript.plainenglish.io/how-to-create-a-custom-css-pointer-in-react-2d4684215564
 
-import React, { useState, useEffect } from 'react';
+import * as React from "react"
+import PropTypes from "prop-types"
+import { useState, useEffect } from 'react';
 
 
-const Cursor = () => {
+const cursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [hidden, setHidden] = useState(false);
   const [click, setClick] = useState(false);
@@ -80,4 +82,4 @@ const Cursor = () => {
   );
 };
 
-export default Cursor;
+export default cursor
