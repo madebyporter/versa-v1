@@ -11,7 +11,9 @@ import imgPortfolio from "../images/projects-bbx.jpg"
 
 const IndexPage = () => (
   <Layout>
-    <Hero heroText="Hyper-minimalist designer, developer, music producer &amp; entrepreneur." />
+    <Seo title="Made by Porter | Minimalist designer, developer, music producer &amp; entrepreneur." />
+
+    <Hero heroText="Minimalist designer, developer, music producer &amp; entrepreneur." />
 
     <section className="block block-section">
       <header className="block-header g-m-1-13 g-1-13">
