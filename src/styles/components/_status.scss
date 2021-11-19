@@ -22,6 +22,6 @@
 }
 .status-nav {
   @media (min-width: $mq-tablet) {
-    justify-content: end;
+    justify-content: flex-end;
   }
 }
