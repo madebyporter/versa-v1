@@ -153,3 +153,8 @@
     text-transform: uppercase;
     letter-spacing: 0.07rem;
   }
+  .status-nav {
+    @media (min-width: $mq-tablet) {
+      justify-content: end;
+    }
+  }
