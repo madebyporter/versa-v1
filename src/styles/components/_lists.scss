@@ -13,4 +13,11 @@
   margin: 0;
   padding: 0;
   @extend .grid;
+  li {
+    position: relative;
+  }
+  .status {
+    float: right;
+    margin: 0 0 1.2rem 0;
+  }
 }

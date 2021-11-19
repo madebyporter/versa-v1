@@ -54,90 +54,117 @@ const IndexPage = () => (
         </ul>
       </div>
       <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
-        <h3 className="t-36 block-content-title">Resume</h3>
+        <header className="block-content-header grid">
+          <h3 className="t-36 block-content-title g-m-1-6">Resume</h3>
+          <nav className="nav navHorz g-m-6-13 g-justify-self-end">
+            <div className="nav-item">
+              <span className="status status-active-full" />
+              <span className="status-label">Alive</span>
+            </div>
+            <div className="nav-item">
+              <span className="status status-active-partial" />
+              <span className="status-label">There in spirit</span>
+            </div>
+            <div className="nav-item">
+              <span className="status status-active-dead" />
+              <span className="status-label">Archived</span>
+            </div>
+          </nav>
+        </header>
         <ul className="list-bordered">
           <li>
-            <ul className="list-item-columns g-align-end">
-              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">SSFN</li>
-              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">Co-Founder</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2017–</li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4">Organics Alive</li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Design Consultant <small>via SPARK6</small></li>
+              <li className="t-18 g-m-8-13 g-t-10-12 g-l-10-12 g-10-12">2018–</li>
+              <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-full" /></li>
             </ul>
           </li>
           <li>
-            <ul className="list-item-columns g-align-end">
-              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Spark6</li>
-              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">Freelancer Web Designer</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2019–</li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Faithful Homes</li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Design Consultant <small>via SSFN</small></li>
+              <li className="t-18 g-m-8-13 g-t-10-12 g-l-10-12 g-10-12">2018–</li>
+              <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-full" /></li>
             </ul>
           </li>
           <li>
-            <ul className="list-item-columns g-align-end">
-              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Made by Porter</li>
-              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">Freelance Solopreneur</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2004–</li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Hyrecar</li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Product Designer</li>
+              <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2018-2019</li>
+              <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
             </ul>
           </li>
           <li>
-            <ul className="list-item-columns g-align-end">
-              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Hyrecar</li>
-              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">Freelance Product Designer</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2018-2019</li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Gigmor</li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Product Designer</li>
+              <li className="t-18 g-m-8-13 g-t-10-12 g-l-10-12 g-10-12">2017-2018</li>
+              <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
             </ul>
           </li>
           <li>
-            <ul className="list-item-columns g-align-end">
-              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Gigmor</li>
-              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">Freelance Product Designer</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2017-2018</li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4">Silicon Beach Talent</li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Designer</li>
+              <li className="t-18 g-m-8-13 g-t-10-12 g-l-10-12 g-10-12">2016-2017</li>
+              <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
             </ul>
           </li>
           <li>
-            <ul className="list-item-columns g-align-end">
-              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Silicon Beach Talent</li>
-              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">Freelance Web Designer</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2016-2017</li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Ron Finley</li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design</li>
+              <li className="t-18 g-m-8-13 g-t-10-12 g-l-10-12 g-10-12">2016-2018</li>
+              <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>
             </ul>
           </li>
           <li>
-            <ul className="list-item-columns g-align-end">
-              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Newscrack</li>
-              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">Freelance UI Designer</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2015-2017</li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Newscrack</li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">UI Designer</li>
+              <li className="t-18 g-m-8-13 g-t-10-12 g-l-10-12 g-10-12">2015-2017</li>
+              <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>
             </ul>
           </li>
           <li>
-            <ul className="list-item-columns g-align-end">
-              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Paystr</li>
-              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">Senior UX Architect</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2013-2014</li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Paystr</li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Senior UX Architect</li>
+              <li className="t-18 g-m-8-13 g-t-10-12 g-l-10-12 g-10-12">2013-2014</li>
+              <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>
             </ul>
           </li>
           <li>
-            <ul className="list-item-columns g-align-end">
-              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">NEOGOV</li>
-              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">UI Engineer</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2012-2013</li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">NEOGOV</li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">UI Engineer</li>
+              <li className="t-18 g-m-8-13 g-t-10-12 g-l-10-12 g-10-12">2012-2013</li>
+              <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>
             </ul>
           </li>
           <li>
-            <ul className="list-item-columns g-align-end">
-              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Bonqo</li>
-              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">UI Designer</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2011-2012</li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Bonqo</li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">UI Designer</li>
+              <li className="t-18 g-m-8-13 g-t-10-12 g-l-10-12 g-10-12">2011-2012</li>
+              <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>
             </ul>
           </li>
           <li>
-            <ul className="list-item-columns g-align-end">
-              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Buzzhoney</li>
-              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">Visual Designer</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2007-2010</li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Buzzhoney</li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Visual Designer</li>
+              <li className="t-18 g-m-8-13 g-t-10-12 g-l-10-12 g-10-12">2007-2010</li>
+              <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>
             </ul>
           </li>
           <li>
-            <ul className="list-item-columns g-align-end">
-              <li className="t-24 g-m-1-13 g-l-1-4 g-1-4">Art Institute</li>
-              <li className="t-18 g-m-1-8 g-t-1-6 g-l-5-9 g-5-9">Undergrad Student</li>
-              <li className="t-18 g-m-8-13 g-t-6-13 g-l-10-13 g-10-13">2005-2009</li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Art Institute</li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Undergrad Student</li>
+              <li className="t-18 g-m-8-13 g-t-10-12 g-l-10-12 g-10-12">2005-2009</li>
             </ul>
           </li>
         </ul>

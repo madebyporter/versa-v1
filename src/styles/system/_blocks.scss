@@ -39,6 +39,12 @@ main {
       padding-bottom: 0;
     }
   }
+  .block-content-header {
+    margin: 0 0 $space-x4 0;
+    h1, h2, h3 {
+      margin: 0;
+    }
+  }
 }
 .block-portfolio {
   align-items: center;

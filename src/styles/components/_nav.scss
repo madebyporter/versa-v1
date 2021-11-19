@@ -1,9 +1,16 @@
-.nav-horz {
+.nav {
   display: flex;
-  flex-wrap: wrap;
   gap: $space-x2;
   a {
     border: 0;
     text-decoration: none;
   }
+}
+.nav-item {
+  align-items: center;
+  display: flex;
+  gap: $space-x;
+}
+.nav-horz {
+  flex-wrap: nowrap;
 }

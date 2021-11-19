@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 import logo from "../images/mbp-logo.svg"
 
 const Header = ({ siteTitle }) => (
-  <header className="header g-align-center">
+  <header className="header g-align-items-center">
     <h1 className="header-logo g-m-1-3 g-t-1-2">
       <Link to="/"><img src={logo} alt="Logo" /></Link>
     </h1>

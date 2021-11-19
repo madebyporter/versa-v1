@@ -336,7 +336,15 @@ $gridGap: 2rem;
 
 
 
-.g-align-start {align-items: start;}
-.g-align-end {align-items: end;}
-.g-align-center {align-items: center;}
-.g-align-stretch {align-items: stretch;}
+.g-align-items-start {align-items: start;}
+.g-align-items-end {align-items: end;}
+.g-align-items-center {align-items: center;}
+.g-align-items-stretch {align-items: stretch;}
+.g-justity-content-start {justify-content: start;}
+.g-justity-content-end {justify-content: end;}
+.g-justity-content-center {justify-content: center;}
+.g-justity-content-stretch {justify-content: stretch;}
+.g-justify-self-start {justify-self: start}
+.g-justify-self-end {justify-self: end}
+.g-justify-self-center {justify-self: center}
+.g-justify-self-stretch {justify-self: stretch}
