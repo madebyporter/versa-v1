@@ -129,3 +129,20 @@
       color: $color-gray;
     }
   }
+
+  .values-copy {
+    .values-copy-reg {
+      display: inline-block;
+    }
+    .values-copy-hover {
+      display: none;
+    }
+    &:hover {
+      .values-copy-reg {
+        display: none;
+      }
+      .values-copy-hover {
+        display: inline-block;
+      }
+    }
+  }

@@ -23,7 +23,7 @@ const IndexPage = () => (
       </div>
       <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
         <h3 className="t-36 block-content-title">Creative Freelance Consulting</h3>
-        <p className="t-36">I help teach new freelancers &amp; solopreneurs coming from in-house teams about the aspects outside of their design or developer skills. You’ll learn how to find clients, negotiate contracts, manage projects &amp; handle your business. <a href="https://calendly.com/madebyporter/consulting">Book a Session</a>.</p>
+        <p className="t-36">I help teach new freelancers &amp; solopreneurs coming from in-house teams about the aspects of freelancing. You’ll learn how to find clients, negotiate contracts, manage projects &amp; handle your business. <a href="https://calendly.com/madebyporter/consulting">Book a Session</a>.</p>
       </div>
 
       <div className="block-portfolio block-portfolio-desktop g-m-1-13">
@@ -48,9 +48,15 @@ const IndexPage = () => (
       <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
         <h3 className="t-36 block-content-title">Values</h3>
         <ul className="list-bordered">
-          <li className="t-36">Make Things Simple</li>
-          <li className="t-36">Make Things Useful</li>
-          <li className="t-36">Make Things Impactful</li>
+          <li className="t-36 values-copy">
+            Make <span className="values-copy-reg">Things Simple</span><span className="values-copy-hover">Simple Things</span>
+          </li>
+          <li className="t-36 values-copy">
+            Make <span className="values-copy-reg">Things Useful</span><span className="values-copy-hover">Useful Things</span>
+          </li>
+          <li className="t-36 values-copy">
+            Make <span className="values-copy-reg">Things Impactful</span><span className="values-copy-hover">Impactful Things</span>
+          </li>
         </ul>
       </div>
       <div className="block-content g-m-1-13 g-l-3-12 g-4-12">

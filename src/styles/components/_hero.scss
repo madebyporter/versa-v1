@@ -9,6 +9,7 @@
     margin: 0;
     @media (min-width: $mq-tablet) {
       @include font-size(64);
+      line-height: 1.1;
     }
     @media (min-width: $mq-desktop) {
       @include font-size(96);
