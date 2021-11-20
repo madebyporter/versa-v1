@@ -1,6 +1,10 @@
 .nav {
   display: flex;
-  gap: $space-x2;
+  margin-right: $space-x4;
+  @supports (display: flex) {
+    display: flex;
+    gap: $space-x4;
+  }
   a {
     border: 0;
     text-decoration: none;

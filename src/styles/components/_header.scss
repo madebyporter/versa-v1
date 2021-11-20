@@ -16,6 +16,16 @@
     position: relative;
     width: 60px;
     z-index: 1000;
+    @include transition;
+    @include scale(1);
+
+    animation-duration: 3s;
+    animation-name: logoBreathe;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    &:hover {
+      @include scale(0.9);
+    }
     @media (min-width: $mq-laptop) {
       height: 62px;
       left: $space-x4;
@@ -36,10 +46,19 @@
       height: auto;
     }
   }
+  @keyframes logoBreathe {
+    from {
+      @include scale(1);
+    }
+  
+    to {
+      @include scale(0.95);
+    }
+  }
   .header-content {
-    display: none;
-    margin-bottom: 0;
+    margin: $space-x4 0 0;
     @media (min-width: $mq-laptop) {
       display: block;
+      margin-top: 0;
     }
   }

@@ -5,6 +5,7 @@
     width: 16px;
     height: 16px;
     background: $color-black;
+    opacity: 0.8;
     border-radius: 100%;
     position: fixed;
     transform: translate(-50%, -50%) scale(1);
@@ -26,6 +27,7 @@
     transform: translate(-50%, -50%) scale(2);
   }
   .c--hover {
+    opacity: 0.9;
     transform: translate(-50%, -50%) scale(2);
   }
 }
