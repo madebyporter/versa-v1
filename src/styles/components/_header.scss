@@ -20,7 +20,7 @@
     @include scale(1);
 
     animation-duration: 3s;
-    animation-name: logoBreathe;
+    // animation-name: logoBreathe;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     &:hover {
