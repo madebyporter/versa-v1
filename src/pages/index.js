@@ -1,6 +1,6 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { Link } from "gatsby"
+// import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -8,12 +8,13 @@ import Hero from "../components/hero"
 
 import imgPortfolio from "../images/projects-bbx.jpg"
 
-
 const IndexPage = () => (
+
+  
   <Layout>
     <Seo title="Made by Porter | Minimalist creative &amp; problem solver." />
 
-    <Hero heroText="Helping people design systems with minimalism &amp; data." heroDesc="I am Chris Porter, a seasoned designer, developer &amp; audio producer for entrepreneurs. I enjoy building systems for small businesses &amp; early stage startups."/>
+    <Hero heroText="Helping people design systems with minimalism &amp; data." heroDesc="I am Chris Porter, a seasoned designer, developer &amp; audio producer for entrepreneurs. I enjoy building systems for small businesses &amp; early stage startups."  />
 
     <section className="block block-section">
       <header className="block-header g-m-1-13 g-1-13">
@@ -21,11 +22,11 @@ const IndexPage = () => (
       </header>
       <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
         <h3 className="t-36 block-content-title">SSFN</h3>
-        <p className="t-36">Co-founded a venture agency with <Link to="https://www.stephenlamiller.com" target="_blank">Stephen Miller</Link> that designs systems for start-ups, small businesses &amp; solopreneurs. Currently, we’re focused on building a digital system for a transportation &amp; housing company. <Link to="https://www.ssfn.io" target="_blank">Visit the site</Link>.</p>
+        <p className="t-36">Co-founded a venture agency with <a href="https://www.stephenlamiller.com" target="_blank" rel="noreferrer">Stephen Miller</a> that designs systems for start-ups, small businesses &amp; solopreneurs. Currently, we’re focused on building a digital system for a transportation &amp; housing company. <a href="https://www.ssfn.io" target="_blank" rel="noreferrer">Visit the site</a>.</p>
       </div>
       <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
         <h3 className="t-36 block-content-title">Creative Freelance Consulting</h3>
-        <p className="t-36">I help teach new freelancers &amp; solopreneurs coming from in-house teams about the aspects of freelancing. You’ll learn how to find clients, negotiate contracts, manage projects &amp; handle your business. <Link to="https://calendly.com/madebyporter/consulting" target="_blank">Book a Session</Link>.</p>
+        <p className="t-36">I help teach new freelancers &amp; solopreneurs coming from in-house teams about the aspects of freelancing. You’ll learn how to find clients, negotiate contracts, manage projects &amp; handle your business. <a href="https://calendly.com/madebyporter/consulting" target="_blank" rel="noreferrer">Book a Session</a>.</p>
       </div>
 
       <div className="block-portfolio block-portfolio-desktop g-m-1-13">
@@ -34,7 +35,7 @@ const IndexPage = () => (
 
       <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
         <h3 className="t-36 block-content-title">The Beatbox Club</h3>
-        <p className="t-36">As a music producer, I wanted to build a simple way to showcase my production library. Most solutions offered too much, so I build my own solution. Now I want to help other music producers organize their production library. <Link to="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank">View my library</Link>.</p>
+        <p className="t-36">As a music producer, I wanted to build a simple way to showcase my production library. Most solutions offered too much, so I build my own solution. Now I want to help other music producers organize their production library. <a href="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank" rel="noreferrer">View my library</a>.</p>
       </div>
     </section>
 

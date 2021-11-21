@@ -24,7 +24,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
     &:hover {
-      @include scale(0.9);
+      @include scale(0.95);
     }
     @media (min-width: $mq-laptop) {
       height: 62px;
