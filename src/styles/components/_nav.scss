@@ -1,6 +1,5 @@
 .nav {
   display: flex;
-  margin-right: $space-x4;
   @supports (display: flex) {
     display: flex;
     gap: $space-x4;
@@ -14,6 +13,16 @@
   align-items: center;
   display: flex;
   gap: $space-x;
+  margin-right: $space-x4;
+  @supports (display: flex) {
+    margin-right: 0;
+  }
+  span {
+    margin-right: $space-x;
+    @supports (display: flex) {
+      margin-right: 0;
+    }
+  }
 }
 .nav-horz {
   flex-wrap: nowrap;

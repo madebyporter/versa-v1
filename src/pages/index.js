@@ -45,7 +45,7 @@ const IndexPage = () => (
       </header>
       <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
         <h3 className="t-36 block-content-title">Bio</h3>
-        <p className="t-36">Before SSFN, I worked as a full-time freelancer designing web apps &amp; sites for Hyrecar, Gigmor, Silicon Beach Talent &amp; Ron Finley. Before that, I was working in-house, designing interfaces for startups like Paystr, HRCloud &amp; Buzzhoney.</p>
+        <p className="t-36">Before SSFN, I worked as a full-time freelancer designing web apps &amp; sites for Hyrecar, Gigmor, Silicon Beach Talent &amp; Ron Finley. Before that, I was working in-house, designing interfaces for startups like Paystr, HRCloud &amp; <a href="https://www.buzzhoney.com/" target="_blank">Buzzhoney</a>.</p>
         <p className="t-36">To get that level, I graduated with a Bachelor of Science from The Art Institute for Interactive Media Design. To learn about my passions, I started learning design, HTML &amp; CSS at the age of 13.</p>
       </div>
       <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
@@ -80,7 +80,7 @@ const IndexPage = () => (
             </div>
           </nav>
         </header>
-        <ul className="list-bordered">
+        <ul className="list-bordered resume-list">
           <li>
             <ul className="list-item-columns g-align-items-end">
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Faithful Homes</li>
@@ -91,32 +91,32 @@ const IndexPage = () => (
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4">Organics Alive</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Shopify Consultant <small>w/ SPARK6</small></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4"><a href="https://www.organicsalivegarden.com" target="_blank">Organics Alive</a></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Shopify Consultant <small>w/ <a href="https://www.spark6.com" target="_blank">SPARK6</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2018–</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-full" /></li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Boom Concepts</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small>w/ Ami' Naeily</small></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><a href="https://www.boomuniverse.co" target="_blank">Boom Concepts</a></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small>w/ <a href="https://aminaeily.com/" target="_blank">Ami' Naeily</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2018–</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-full" /></li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4">Apple</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Development <small>w/ Novvum</small></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4"><a href="https://experience.apple/iphone/" target="_blank">Apple</a></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Development <small>w/ <a href="https://novvum.io/" target="_blank">Novvum</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2021</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4">Ivy Park</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small>w/ Novvum</small></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4"><a href="https://ivypark.rodeo/?q=xz8zepices" target="_blank">Ivy Park</a></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small>w/ <a href="https://novvum.io/" target="_blank">Novvum</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2021</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
             </ul>
@@ -124,46 +124,46 @@ const IndexPage = () => (
           <li>
             <ul className="list-item-columns g-align-items-end">
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4">Digmee</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Product Design <small>w/ Novvum</small></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Product Design <small>w/ <a href="https://novvum.io/" target="_blank">Novvum</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2021</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4">ReactHeadless.com</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small>w/ Novvum</small></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4"><a href="https://www.reactheadless.com" target="_blank">ReactHeadless.com</a></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small>w/ <a href="https://novvum.io/" target="_blank">Novvum</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2021</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4">Novvum.io</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small>w/ Novvum</small></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4"><a href="https://novvum.io/" target="_blank">Novvum</a></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small>w/ <a href="https://novvum.io/" target="_blank">Novvum</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2021</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4">Leslie Stefanson</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Wordpress Dev <small>w/ SPARK6</small></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4"><a href="https://www.lesliestefanson.com" target="_blank">Leslie Stefanson</a></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Wordpress Dev <small>w/ <a href="https://www.spark6.com" target="_blank">SPARK6</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2019–2020</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Zelmins</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Shopify Consultant <small>w/ SPARK6</small></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><a href="https://www.zelmins.com" target="_blank">Zelmins</a></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Shopify Consultant <small>w/ <a href="https://www.spark6.com" target="_blank">SPARK6</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2019-2020</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Squrl Fitness</li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><a href="https://www.squrlfitness.com" target="_blank">Squrl Fitness</a></li>
               <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design</li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2018-2019</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
@@ -171,7 +171,7 @@ const IndexPage = () => (
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Hyrecar</li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><a href="https://www.hyrecar.com" target="_blank">Hyrecar</a></li>
               <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Product Design</li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2018-2019</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
@@ -179,15 +179,15 @@ const IndexPage = () => (
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Laki Natural</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Shopify Consultant <small>w/ SPARK6</small></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><a href="https://www.lakinaturals.com" target="_blank">Laki Natural</a></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Shopify Consultant <small>w/ <a href="https://www.spark6.com" target="_blank">SPARK6</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2018</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Gigmor</li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><a href="https://www.gigmor.com" target="_blank">Gigmor</a></li>
               <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Product Design</li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2017-2018</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
@@ -211,7 +211,7 @@ const IndexPage = () => (
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-5">Foundation Transportation</li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-5"><a href="https://www.myfdtps.com" target="_blank">Foundation Transportation</a></li>
               <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design &amp; Consultant</li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2016-2019</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>
@@ -219,15 +219,15 @@ const IndexPage = () => (
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4">Silicon Beach Talent</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small> w/ Ami' Naeily</small></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-4"><a href="https://www.siliconbeachtalent.com" target="_blank">Silicon Beach Talent</a></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small> w/ <a href="https://aminaeily.com/" target="_blank">Ami' Naeily</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2016-2017</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-partial" /></li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Ron Finley</li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><a href="https://www.ronfinley.com" target="_blank">Ron Finley</a></li>
               <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design</li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2016-2018</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>
@@ -251,7 +251,7 @@ const IndexPage = () => (
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">NEOGOV</li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><a href="https://www.hrcloud.com" target="_blank">HRCloud</a></li>
               <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">In-house Design Engineering</li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2012-2013</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>
@@ -259,7 +259,7 @@ const IndexPage = () => (
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Jaye Neutron</li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><a href="https://www.jayeneutron.com" target="_blank">Jaye Neutron</a></li>
               <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design</li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2012-2013</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>
@@ -283,39 +283,39 @@ const IndexPage = () => (
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Giant Eagle</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small>w/ Buzzhoney</small></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><a href="https://www.gianteagle.com" target="_blank">Giant Eagle</a></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small>w/ <a href="https://www.buzzhoney.com/" target="_blank">Buzzhoney</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2009-2010</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-5">Dick's Sporting Goods</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Product Design <small>w/ Buzzhoney</small></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-5"><a href="https://www.dickssportinggoods.com" target="_blank">Dick's Sporting Goods</a></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Product Design <small>w/ <a href="https://www.buzzhoney.com/" target="_blank">Buzzhoney</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2009</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">UPMC</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small>w/ Buzzhoney</small></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><a href="https://www.upmc.com" target="_blank">UPMC</a></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small>w/ <a href="https://www.buzzhoney.com/" target="_blank">Buzzhoney</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2008-2010</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">General Electric</li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small>w/ Buzzhoney</small></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><a href="https://www.ge.com" target="_blank">General Electric</a></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Web Design <small>w/ <a href="https://www.buzzhoney.com/" target="_blank">Buzzhoney</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2007-2008</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Buzzhoney</li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><a href="https://www.buzzhoney.com/" target="_blank">Buzzhoney</a></li>
               <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">In-house Designer</li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2007-2010</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-dead" /></li>

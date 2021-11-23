@@ -24,3 +24,10 @@
     }
   }
 }
+
+.resume-list {
+  a {
+    font-weight: $fw-m;
+    border-bottom: 1px solid $color-black;
+  }
+}
