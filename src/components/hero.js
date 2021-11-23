@@ -1,13 +1,37 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-// import { Link } from "gatsby"
+import { motion } from "framer-motion"
 
-const Hero = ({ heroText, heroDesc }) => (
+const parentAni = {
+  visible: {
+    opacity: 1,
+    transition: {
+      when: "beforeChildren",
+      staggerChildren: 0.5,
+      duration: 1,
+      ease: "easeOut",
+      delay: 2
+    },
+  },
+  hidden: {
+    opacity: 0,
+    transition: {
+      when: "afterChildren",
+    },
+  },
+}
+
+const childAni = {
+  visible: { opacity: 1},
+  hidden: { opacity: 0},
+}
+
+const Hero = ({ heroText, heroDesc, isVisible }) => (
   <section className="block block-hero">
-    <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
-      <h2 className="block-header">{heroText}</h2>
-      <p className="block-post t-36">{heroDesc}</p>
-    </div>
+    <motion.div className="block-content g-m-1-13 g-l-3-12 g-4-12" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={parentAni}>
+      <motion.h2 className="block-header" variants={childAni}>{heroText}</motion.h2>
+      <motion.p className="block-post t-36" variants={childAni}>{heroDesc}</motion.p>
+    </motion.div>
   </section>
 )
 

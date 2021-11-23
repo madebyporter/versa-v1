@@ -13,6 +13,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
+import { motion } from "framer-motion"
 import Cursor from './cursor'
 
 import "../styles/site.scss"
@@ -36,6 +37,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <motion.div className="site-cover" initial={{opacity:1, y: 0}} animate={{opacity: 0, y: 0, transitionEnd: {display: "none"} }} transition={{ ease: "easeInOut", duration: 0.7, delay: 1}} />
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main className="main">{children}</main>
       <footer className="footer g-align-items-center">
