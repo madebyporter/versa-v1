@@ -7,9 +7,15 @@ import Seo from "../components/seo"
 import Hero from "../components/hero"
 
 import imgPortfolio from "../images/projects-bbx.jpg"
+import imgProjectAuditApp from "../images/mbp-projectauditsystem-gumroad--app.png"
+import imgProjectAuditBG from "../images/mbp-projectauditsystem-gumroad--bg.jpg"
+
+const pasStyles = {
+  backgroundImage: 'url(' + imgProjectAuditBG + ')',
+  backgroundSize: 'cover',
+};
 
 const IndexPage = () => (
-
   
   <Layout>
     <Seo title="Minimalist designer &amp; problem solver" />
@@ -36,6 +42,15 @@ const IndexPage = () => (
       <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
         <h3 className="t-36 block-content-title">The Beatbox Club</h3>
         <p className="t-36">As a music producer, I wanted to build a simple way to showcase my production library. Most solutions offered too much, so I build my own solution. Now I want to help other music producers organize their production library. <a href="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank"rel="noreferrer">View my library</a>.</p>
+      </div>
+
+      <div className="block-portfolio block-portfolio-desktop g-m-1-13" style={pasStyles}>
+        <img className="block-portfolio-img" src={imgProjectAuditApp} alt="The Project Audit System, a Notion template." />  
+      </div>
+
+      <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
+        <h3 className="t-36 block-content-title">Product Audit System</h3>
+        <p className="t-36">Every quarter, I review all the projects I've worked on and add them to my product audit system. I add in the data and it spits out how cool the project is based on my tastes. You can download my Notion template for it here: <a href="https://www.notion.so/madebyporter/Use-my-Project-Audit-System-550288c2c81b4628a806a0081e8bd601" target="_blank"rel="noreferrer">Download the Product Audit System</a>.</p>
       </div>
     </section>
 
