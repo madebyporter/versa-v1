@@ -60,7 +60,7 @@ const IndexPage = () => (
       </header>
       <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
         <h3 className="t-36 block-content-title">Bio</h3>
-        <p className="t-36">Before SSFN, I worked as a full-time freelancer designing web apps &amp; sites for Hyrecar, Gigmor, Silicon Beach Talent &amp; Ron Finley. Before that, I was working in-house, designing interfaces for startups like Paystr, HRCloud &amp; <a href="https://www.buzzhoney.com/" target="_blank" rel="noreferrer">Buzzhoney</a>.</p>
+        <p className="t-36">Before SSFN, I worked as a full-time freelancer designing web apps &amp; sites for Hyrecar, Gigmor, Silicon Beach Talent &amp; Ron Finley. Before that, I was working in-house, designing interfaces for companies like Paystr, HRCloud &amp; <a href="https://www.buzzhoney.com/" target="_blank" rel="noreferrer">Buzzhoney</a>.</p>
         <p className="t-36">To get that level, I graduated with a Bachelor of Science from The Art Institute for Interactive Media Design. To learn about my passions, I started learning design, HTML &amp; CSS at the age of 13.</p>
       </div>
       <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
