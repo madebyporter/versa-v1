@@ -27,3 +27,82 @@
 .nav-horz {
   flex-wrap: nowrap;
 }
+.nav-vert {
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: $space-x2;
+  .nav-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-link {
+    margin-bottom: $space-x;
+    width: 100%;
+  }
+}
+.nav-global {
+  @media (max-width: $mq-laptop) {
+    background: $color-beige;
+    background: linear-gradient(90deg, rgba(240,239,237,0.9) 50%, rgba(240,239,237,0.8) 100%);
+    backdrop-filter: blur(6px);
+    bottom: 0;
+    justify-content: flex-end;
+    left: 0;
+    padding: $space-x2;
+    padding-bottom: $space-x8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    .nav-link {
+      padding: $space-x 0;
+      @include font-size(12);
+    }
+    .nav-section {
+      max-width: 280px;
+    }
+  }
+  bottom: $space-x4;
+  left: $space-x4;
+  position: fixed;
+  z-index: 1000;
+}
+
+.nav-section-header {
+  @extend .t-12;
+  color: $color-gray;
+  font-weight: 500;
+  letter-spacing: 0.01rem;
+  margin-bottom: $space-x1;
+}
+.nav-link {
+  letter-spacing: -0.01rem;
+  @extend .t-14;
+}
+.nav-link-external {
+  display: block;
+  padding-right: $space-x8;
+  position: relative;
+  &:after {
+    content: "";
+    background: url('../images/icons/icon-link_external.svg') no-repeat center;
+    background-size: 100%;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    right: 0;
+    @include vertical-center;
+  }
+}
+.nav-trigger {
+  background: $color-black;
+  border-radius: 32px;
+  bottom: $space-x2;
+  left: $space-x2;
+  height: 32px;
+  position: absolute;
+  width: 32px;
+  @media (min-width: $mq-laptop) {
+    display: none;
+  }
+}

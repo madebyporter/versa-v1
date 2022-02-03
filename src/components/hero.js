@@ -28,7 +28,7 @@ const childAni = {
 
 const Hero = ({ heroText, heroDesc, isVisible }) => (
   <section className="block block-hero">
-    <motion.div className="block-content g-m-1-13 g-l-3-12 g-4-12" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={parentAni}>
+    <motion.div className="block-content g-m-1-13 g-l-4-12 g-4-12" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={parentAni}>
       <motion.h2 className="block-header" variants={childAni}>{heroText}</motion.h2>
       <motion.p className="block-post t-36" variants={childAni}>{heroDesc}</motion.p>
     </motion.div>

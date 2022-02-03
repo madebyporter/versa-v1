@@ -94,11 +94,25 @@
       @include font-size(18);
     }
   }
+  .t-16 {
+    @include font-size(12);
+    line-height: 1.5;
+    @media (min-width: $mq-tablet) {
+      @include font-size(16);
+    }
+  }
   .t-14 {
     @include font-size(10);
     line-height: 1.5;
     @media (min-width: $mq-tablet) {
       @include font-size(14);
+    }
+  }
+  .t-12 {
+    @include font-size(8);
+    line-height: 1.5;
+    @media (min-width: $mq-tablet) {
+      @include font-size(12);
     }
   }
 

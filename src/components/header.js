@@ -35,7 +35,7 @@ const Header = ({ siteTitle, isVisible }) => (
     <motion.h1 className="header-logo g-m-1-3 g-t-1-2" variants={childAni}>
       <Link to="/"><img src={logo} alt="Logo" /></Link>
     </motion.h1>
-    <motion.h2 className="t-36 header-content g-m-1-13 g-t-1-13 g-l-3-13 g-4-13" variants={childAni}>
+    <motion.h2 className="t-36 header-content g-m-1-13 g-t-1-13 g-l-4-13 g-4-13" variants={childAni}>
       Made by Porter
     </motion.h2>
   </motion.header>

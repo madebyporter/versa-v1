@@ -24,13 +24,13 @@ const IndexPage = () => (
 
     <section className="block block-section">
       <header className="block-header g-m-1-13 g-1-13">
-        <h2 className="t-24 block-header-title g-m-1-13 g-l-3-13 g-4-13">Projects I'm working on right now</h2>
+        <h2 className="t-24 block-header-title g-m-1-13 g-l-4-13 g-4-13">Projects I'm working on right now</h2>
       </header>
-      <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
+      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
         <h3 className="t-36 block-content-title">SSFN</h3>
         <p className="t-36">Co-founded a venture agency with <a href="https://www.stephenlamiller.com" target="_blank"rel="noreferrer">Stephen Miller</a> that designs systems for start-ups, small businesses &amp; solopreneurs. Currently, we’re focused on building a digital system for a transportation &amp; housing company. <a href="https://www.ssfn.io" target="_blank"rel="noreferrer">Visit the site</a>.</p>
       </div>
-      <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
+      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
         <h3 className="t-36 block-content-title">Creative Freelance Consulting</h3>
         <p className="t-36">I help teach new freelancers &amp; solopreneurs coming from in-house teams about the aspects of freelancing. You’ll learn how to find clients, negotiate contracts, manage projects &amp; handle your business. <a href="https://calendly.com/madebyporter/consulting" target="_blank"rel="noreferrer">Book a Session</a>.</p>
       </div>
@@ -39,7 +39,7 @@ const IndexPage = () => (
         <img className="block-portfolio-img" src={imgPortfolio} alt="Portfolio" />  
       </div>
 
-      <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
+      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
         <h3 className="t-36 block-content-title">The Beatbox Club</h3>
         <p className="t-36">As a music producer, I wanted to build a simple way to showcase my production library. Most solutions offered too much, so I build my own solution. Now I want to help other music producers organize their production library. <a href="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank"rel="noreferrer">View my library</a>.</p>
       </div>
@@ -48,7 +48,7 @@ const IndexPage = () => (
         <img className="block-portfolio-img" src={imgProjectAuditApp} alt="The Project Audit System, a Notion template." />  
       </div>
 
-      <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
+      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
         <h3 className="t-36 block-content-title">Product Audit System</h3>
         <p className="t-36">Every quarter, I review all the projects I've worked on and add them to my product audit system. I add in the data and it spits out how cool the project is based on my tastes. You can download my Notion template for it here: <a href="https://madebyporter.notion.site/Use-my-Project-Audit-System-550288c2c81b4628a806a0081e8bd601" target="_blank"rel="noreferrer">Download the Product Audit System</a>.</p>
       </div>
@@ -56,17 +56,17 @@ const IndexPage = () => (
 
     <section className="block block-section">
       <header className="block-header g-m-1-13 g-1-13">
-        <h2 className="t-24 block-header-title g-m-1-13 g-l-3-13 g-4-13">About</h2>
+        <h2 className="t-24 block-header-title g-m-1-13 g-l-4-13 g-4-13">About</h2>
       </header>
-      <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
+      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
         <h3 className="t-36 block-content-title">Bio</h3>
         <p className="t-36">Before SSFN, I worked as a full-time freelancer designing web apps &amp; sites for Hyrecar, Gigmor, Silicon Beach Talent &amp; Ron Finley. Before that, I was working in-house, designing interfaces for companies like Paystr, HRCloud &amp; <a href="https://www.buzzhoney.com/" target="_blank" rel="noreferrer">Buzzhoney</a>.</p>
         <p className="t-36">To get that level, I graduated with a Bachelor of Science from The Art Institute for Interactive Media Design. To learn about my passions, I started learning design, HTML &amp; CSS at the age of 13.</p>
       </div>
-      <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
+      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
         <h3 className="t-36 block-content-title">Values</h3>
         <ul className="list-bordered">
-          <li className="t-36 values-copy">
+          <li className="t-36 values-copy text-right">
             Make <span className="values-copy-reg">Things Simple</span><span className="values-copy-hover">Simple Things</span>
           </li>
           <li className="t-36 values-copy">
@@ -77,7 +77,7 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-      <div className="block-content g-m-1-13 g-l-3-12 g-4-12">
+      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
         <header className="block-content-header grid">
           <h3 className="t-36 block-content-title g-m-1-13 g-t-1-6">Resume</h3>
           <nav className="nav nav-horz status-nav g-m-1-13 g-t-6-13">
@@ -98,7 +98,7 @@ const IndexPage = () => (
         <ul className="list-bordered resume-list">
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Faithful Homes</li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4 ">Faithful Homes</li>
               <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Product Design <small>w/ <a href="https://www.ssfn.io" target="_blank" rel="noreferrer">SSFN</a></small></li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">2018–</li>
               <li className="t-18 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center"><span className="status status-active-full" /></li>
