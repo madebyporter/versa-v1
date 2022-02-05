@@ -2,6 +2,9 @@
   padding-top: $space-x8;
   padding-bottom: $space-x8;
   .block-content {
+    & > * {
+      opacity: 0;
+    }
   }
   .block-header {
     @include font-size(36);

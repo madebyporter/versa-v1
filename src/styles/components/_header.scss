@@ -11,10 +11,10 @@
     margin: 0;
   }
   .header-logo {
-    height: auto;
+    height: 58px;
     margin: 0;
     position: relative;
-    width: 60px;
+    width: 48px;
     z-index: 1000;
     @include transition;
     @include scale(1);
@@ -27,11 +27,9 @@
       @include scale(0.95);
     }
     @media (min-width: $mq-laptop) {
-      height: 62px;
       left: $space-x4;
       position: fixed;
       top: $space-x8;
-      width: 89px;
     }
     a {
       display: flex;
