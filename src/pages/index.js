@@ -87,7 +87,7 @@ const IndexPage = () => (
             </div>
             <div className="nav-item">
               <span className="status status-active-partial" />
-              <span className="status-label">There in spirit</span>
+              <span className="status-label">In spirit</span>
             </div>
             <div className="nav-item">
               <span className="status status-dead" />

@@ -1,3 +1,42 @@
+.nav-component {
+  
+}
+
+.nav-global {
+  @media (max-width: $mq-laptop) {
+    background: $color-beige;
+    background: linear-gradient(90deg, rgba(240,239,237,0.9) 50%, rgba(240,239,237,0.8) 100%);
+    backdrop-filter: blur(6px);
+    bottom: 0;
+    justify-content: flex-end;
+    left: 0;
+    padding: $space-x2;
+    padding-bottom: $space-x8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    .nav-link {
+      padding: $space-x 0;
+      @include font-size(12);
+    }
+    .nav-section {
+      max-width: 280px;
+    }
+  }
+  bottom: $space-x4;
+  left: $space-x4;
+  position: fixed;
+  &.nav-open {
+    display: flex;
+  }
+  &.nav-closed {
+    @media (max-width: $mq-laptop) {
+      display: none;
+    }
+  }
+}
+
 .nav {
   display: flex;
   @supports (display: flex) {
@@ -40,33 +79,6 @@
     width: 100%;
   }
 }
-.nav-global {
-  @media (max-width: $mq-laptop) {
-    background: $color-beige;
-    background: linear-gradient(90deg, rgba(240,239,237,0.9) 50%, rgba(240,239,237,0.8) 100%);
-    backdrop-filter: blur(6px);
-    bottom: 0;
-    justify-content: flex-end;
-    left: 0;
-    padding: $space-x2;
-    padding-bottom: $space-x8;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    .nav-link {
-      padding: $space-x 0;
-      @include font-size(12);
-    }
-    .nav-section {
-      max-width: 280px;
-    }
-  }
-  bottom: $space-x4;
-  left: $space-x4;
-  position: fixed;
-  z-index: 1000;
-}
 
 .nav-section-header {
   @extend .t-12;
@@ -100,8 +112,9 @@
   bottom: $space-x2;
   left: $space-x2;
   height: 32px;
-  position: absolute;
+  position: fixed;
   width: 32px;
+  z-index: 1001;
   @media (min-width: $mq-laptop) {
     display: none;
   }

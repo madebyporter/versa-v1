@@ -9,6 +9,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
+import Navbar from "./navGlobal"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -47,30 +48,8 @@ const Layout = ({ children }) => {
           <a href="https://linkedin.com/in/madebyporter/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
         </nav>
       </footer>
-      <nav className="nav nav-vert nav-global">
-        <div className="nav-section">
-          <h3 className="nav-section-header">Porter</h3>
-          <Link className="nav-link" to="/bio/">Bio</Link>
-          <Link className="nav-link" to="/stack/">Stack</Link>
-          <Link className="nav-link" to="/stack/">Writing</Link>
-        </div>
-        <div className="nav-section">
-          <h3 className="nav-section-header">Specialities</h3>
-          <Link className="nav-link nav-link-external" to="/bio/">Digital Systems</Link>
-          <Link className="nav-link" to="/stack/">Product Design</Link>
-          <Link className="nav-link nav-link-external" to="/stack/">Music Production</Link>
-          <Link className="nav-link" to="/stack/">Photography</Link>
-        </div>
-        <div className="nav-section">
-          <h3 className="nav-section-header">Products</h3>
-          <a href="https://www.thinkversa.com" className="nav-link nav-link-external" target="_blank" rel="noreferrer">Projective</a>
-          <a href="https://www.thinkversa.com" className="nav-link nav-link-external" target="_blank" rel="noreferrer">The Beatbox Club</a>
-          <a href="https://www.thinkversa.com" className="nav-link nav-link-external" target="_blank" rel="noreferrer">Think Versa</a>
-        </div>
-        <div className="nav-trigger">
-          
-        </div>
-      </nav>
+      
+      <Navbar />
       <Cursor />
     </>
   )
