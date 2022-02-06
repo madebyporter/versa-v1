@@ -8,7 +8,7 @@ main {
   @extend .grid;
   margin: 0;
   @media (min-width: $mq-laptop) {
-    padding: $space-x16 0;
+    padding: $space-x8 0;
   }
 }
 
@@ -18,10 +18,10 @@ main {
     border-bottom: 1px solid $color-black;
     @extend .grid;
     padding-bottom: $space-x4;
-    margin-bottom: $space-x2;
+    // margin-bottom: $space-x2;
     @media (min-width: $mq-tablet) {
       padding-bottom: $space-x8;
-      margin-bottom: $space-x4;
+      // margin-bottom: $space-x4;
     }
     // Header Content
     .block-header-title {

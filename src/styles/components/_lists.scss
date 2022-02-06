@@ -13,6 +13,7 @@
   margin: 0;
   padding: 0;
   @extend .grid;
+  grid-gap: $space-x;
   li {
     position: relative;
   }
