@@ -6,22 +6,22 @@ const NavbarLinks = () => {
     <>
       <div className="nav-section">
         <h3 className="nav-section-header">Porter</h3>
-        <Link className="nav-link" to="/bio/">Bio</Link>
+        <Link className="nav-link" to="/about/">About</Link>
         <Link className="nav-link" to="/stack/">Stack</Link>
-        <Link className="nav-link" to="/stack/">Writing</Link>
+        <Link className="nav-link" to="/journal/">Journal</Link>
       </div>
       <div className="nav-section">
         <h3 className="nav-section-header">Specialities</h3>
-        <Link className="nav-link nav-link-external" to="/bio/">Digital Systems</Link>
-        <Link className="nav-link" to="/stack/">Product Design</Link>
-        <Link className="nav-link nav-link-external" to="/stack/">Music Production</Link>
-        <Link className="nav-link" to="/stack/">Photography</Link>
+        <Link className="nav-link" to="/businesssystems/" target="_blank">Business Systems</Link>
+        <Link className="nav-link" to="/designandcode/">Design &amp; Code</Link>
+        <Link className="nav-link nav-link-external" to="/musicproduction/">Music Production</Link>
       </div>
       <div className="nav-section">
         <h3 className="nav-section-header">Products</h3>
-        <a href="https://www.thinkversa.com" className="nav-link nav-link-external" target="_blank" rel="noreferrer">Projective</a>
-        <a href="https://www.thinkversa.com" className="nav-link nav-link-external" target="_blank" rel="noreferrer">The Beatbox Club</a>
-        <a href="https://www.thinkversa.com" className="nav-link nav-link-external" target="_blank" rel="noreferrer">Think Versa</a>
+        <Link className="nav-link nav-link-external" to="https://www.ssfn.io" target="_blank">SSFN</Link>
+        <Link className="nav-link nav-link-external" to="https://www.ssfn.io" target="_blank">Projective</Link>
+        <Link className="nav-link nav-link-external" to="https://www.thebeatboxclub.com" target="_blank">The Beatbox Club</Link>
+        <Link className="nav-link nav-link-external" to="https://www.thinkversa.com" target="_blank">Think Versa</Link>
       </div>
     </>
   )
