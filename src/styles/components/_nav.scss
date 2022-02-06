@@ -33,6 +33,7 @@
   &.nav-closed {
     @media (max-width: $mq-laptop) {
       display: none;
+      // thanks
     }
   }
 }
