@@ -67,7 +67,7 @@ const IndexPage = () => (
           <li>
             <ul className="list-item-columns g-align-items-end">
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://spline.design/" target="_blank">Spline</Link></li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">3D Design for Web</li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">3D Design for web.</li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">3D Design</li>
             </ul>
           </li>
@@ -228,13 +228,6 @@ const IndexPage = () => (
         <ul className="list-bordered resume-list">
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.banknovo.com/" target="_blank">Novo</Link></li>
-              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Solopreneur neo-banking.</li>
-              <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">Finances</li>
-            </ul>
-          </li>
-          <li>
-            <ul className="list-item-columns g-align-items-end">
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.calendly.com" target="_blank">Calendly</Link></li>
               <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Scheduling meetings.</li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">Communication</li>
@@ -259,6 +252,13 @@ const IndexPage = () => (
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.notion.so" target="_blank">Notion</Link></li>
               <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Product &amp; business management.</li>
               <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">Productivity</li>
+            </ul>
+          </li>
+          <li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.banknovo.com/" target="_blank">Novo</Link></li>
+              <li className="t-18 g-m-1-8 g-t-5-10 g-l-5-9 g-5-9">Solopreneur neo-banking.</li>
+              <li className="t-18 g-m-8-12 g-t-10-12 g-l-10-12 g-10-12">Finances</li>
             </ul>
           </li>
           <li>
