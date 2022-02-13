@@ -37,11 +37,12 @@ const IndexPage = () => (
 
       <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
         <h3 className="t-36 block-content-title">The Beatbox Club</h3>
-        <p className="t-36">As a music producer, I wanted to build a simple way to showcase my production library. Most solutions offered too much, so I build my own solution. Now I want to help other music producers organize their production library. <a href="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank"rel="noreferrer">View my library</a>.</p>
+        <p className="t-36">As a music producer, I wanted to build a simple way to showcase my production library. Most solutions offered too much, so I build my own solution. Now I want to help other music producers organize their production library. <a href="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank" rel="noreferrer">View my library</a>.</p>
       </div>
 
       <div className="block-portfolio block-portfolio-desktop g-m-1-13" style={pasStyles}>
-        <img className="block-portfolio-img" src={imgProjectAuditApp} alt="The Project Audit System, a Notion template." />  
+        <img className="block-portfolio-img" src={imgProjectAuditApp} alt="The Project Audit System, a Notion template." />
+        <div className="block-portfolio-img-caption">Background Photo by <a href="https://unsplash.com/photos/MpTdvXlAsVE" target="_blank" rel="noreferrer">Martin Adams</a></div>
       </div>
 
       <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
