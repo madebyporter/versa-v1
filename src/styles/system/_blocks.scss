@@ -76,3 +76,43 @@ main {
     bottom: -30px;
   }
 }
+.block-portfolio-mobile-two {
+  position: relative;
+  flex-direction: column;
+  gap: $space-x4;
+  padding: $space-x2 $space-x2;
+  @include transition;
+  @media (min-width: $mq-phonexl) {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15%;
+    max-height: 100vh;
+    padding: $space-x8 $space-x4;
+  }
+  @media (min-width: $mq-tablet) {
+    gap: 30%;
+  }
+  &:before {
+      content: "";
+      height: 2px;
+      width: 100%;
+      background: $color-beige;
+      @include vertical-center;
+      display: block;
+    @media (min-width: $mq-phonexl) {
+      content: "";
+      height: 100%;
+      width: 2px;
+      @include horizontal-center;
+      top: 0;
+    }
+  }
+  .block-portfolio-img {
+    height: auto;
+    width: 100%;
+    @media (min-width: $mq-phonexl) {
+      height: 100%;
+      width: auto;
+    }
+  }
+}

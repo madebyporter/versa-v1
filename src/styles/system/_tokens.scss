@@ -144,6 +144,7 @@
     }
   }
 
+  // Values
   .values-copy {
     .values-copy-reg {
       display: inline-block;
@@ -159,4 +160,25 @@
         display: inline-block;
       }
     }
+  }
+
+  // Data Change
+  .data-change {
+    position: relative;
+    top: -$space-x;
+    padding-left: $space-x;
+    font-size: 60%;
+    font-weight: 500;
+    &.dc-up {
+      color: #708C23;
+    }
+    &.dc-down {
+      color: #BD2E47;
+    }
+  }
+
+  // Blockquote
+  .blockquote {
+    padding: 0;
+    margin: 0 0 $space-x4;
   }
