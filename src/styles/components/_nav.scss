@@ -74,6 +74,9 @@
   .nav-section {
     display: flex;
     flex-direction: column;
+    h3 {
+      margin-top: $space-x2;
+    }
   }
   .nav-link {
     margin-bottom: $space-x;
@@ -119,4 +122,12 @@
   @media (min-width: $mq-laptop) {
     display: none;
   }
+  & > * {
+    @include absolute-center;
+    color: $color-white;
+    @extend .t-18;
+  }
+}
+.nav-trigger-closed {
+ 
 }

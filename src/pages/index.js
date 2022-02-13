@@ -27,10 +27,6 @@ const IndexPage = () => (
         <h2 className="t-24 block-header-title g-m-1-13 g-l-4-13 g-4-13">Projects I'm working on right now</h2>
       </header>
       <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
-        <h3 className="t-36 block-content-title">SSFN</h3>
-        <p className="t-36">Co-founded a venture agency with <a href="https://www.stephenlamiller.com" target="_blank"rel="noreferrer">Stephen Miller</a> that designs systems for start-ups, small businesses &amp; solopreneurs. Currently, we’re focused on building a digital system for a transportation &amp; housing company. <a href="https://www.ssfn.io" target="_blank"rel="noreferrer">Visit the site</a>.</p>
-      </div>
-      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
         <h3 className="t-36 block-content-title">Creative Freelance Consulting</h3>
         <p className="t-36">I help teach new freelancers &amp; solopreneurs coming from in-house teams about the aspects of freelancing. You’ll learn how to find clients, negotiate contracts, manage projects &amp; handle your business. <a href="https://calendly.com/madebyporter/consulting" target="_blank"rel="noreferrer">Book a Session</a>.</p>
       </div>

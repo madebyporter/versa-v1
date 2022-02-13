@@ -36,9 +36,22 @@ const Layout = ({ children }) => {
     }
   `)
 
+  const shadeInit = {
+    visible: {
+      opacity: 1, y: 0
+    },
+    hidden: {
+      opacity: 0, y: 0, transitionEnd: {display: "none"},
+      transition: {
+        ease: "easeInOut", duration: 0.7, delay: 1
+      }
+    }
+  }
+
   return (
     <>
-      <motion.div className="site-cover" initial={{opacity:1, y: 0}} animate={{opacity: 0, y: 0, transitionEnd: {display: "none"} }} transition={{ ease: "easeInOut", duration: 0.7, delay: 1}} />
+      <motion.div className="site-cover off" variants={shadeInit} initial="visible" animate="hidden" />
+
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main className="main">{children}</main>
       <footer className="footer g-align-items-center">

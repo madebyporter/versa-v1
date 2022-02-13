@@ -3,11 +3,11 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 import NavbarLinks from "./navLinks"
+import { motion } from "framer-motion"
 
-// const Navigation = styled.nav
-// const Toggle = styled.nav
-// const Navbox = styled.nav
-// const Hamburger = styled.nav
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faXmark } from '@fortawesome/pro-thin-svg-icons'
+import { faBars } from '@fortawesome/pro-thin-svg-icons'
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
@@ -15,18 +15,18 @@ const Navbar = () => {
   return (
     <div className="nav-component">
       <div className="nav-trigger" navbarOpen={navbarOpen} onClick={() => setNavbarOpen(!navbarOpen)}>
-        {navbarOpen ? <div className="nav-trigger-icon nav-trigger-open" open /> : <div className="nav-trigger-icon nav-trigger-closed" />}
+        {navbarOpen ? <div className="nav-trigger-icon nav-trigger-open" open><FontAwesomeIcon icon={faXmark} /></div> : <div className="nav-trigger-icon nav-trigger-closed"><FontAwesomeIcon icon={faBars} /></div>}
       </div>
 
       {navbarOpen ? (
-        <nav className="nav nav-vert nav-global nav-open" open>
+        <motion.nav className="nav nav-vert nav-global nav-open" open>
           <NavbarLinks />
-        </nav>
+        </motion.nav>
         
       ) : (
-        <nav className="nav nav-vert nav-global nav-closed">
+        <motion.nav className="nav nav-vert nav-global nav-closed">
           <NavbarLinks />
-        </nav>
+        </motion.nav>
       )}
     </div>
   )
