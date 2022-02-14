@@ -18,6 +18,7 @@ const IndexPage = () => (
   
   <Layout>
     <Seo title="Case Study: Organics Alive" />
+    <Seo description="A case study on how we moved Organics Alive from WooCommerce to Shopify to improve processes." />
 
     <Hero heroText="Organics Alive" heroDesc="A case study on how we moved Organics Alive from WooCommerce to Shopify to improve processes."  />
 
