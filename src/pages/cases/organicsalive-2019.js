@@ -17,8 +17,11 @@ import oaproductdetailmobile from "../../images/cases/organicsalive-2019-product
 const IndexPage = () => (
   
   <Layout>
-    <Seo title="Case Study: Organics Alive" />
-    <Seo description="A case study on how we moved Organics Alive from WooCommerce to Shopify to improve processes." />
+    <Seo 
+      title="Case Study: Organics Alive" 
+      description="A case study on how we moved Organics Alive from WooCommerce to Shopify to improve processes."
+      image={oahomepage}
+    />
 
     <Hero heroText="Organics Alive" heroDesc="A case study on how we moved Organics Alive from WooCommerce to Shopify to improve processes."  />
 
