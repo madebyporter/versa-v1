@@ -28,8 +28,8 @@ const IndexPage = () => (
       </div>
       <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
         <h3 className="t-36 block-content-title">Shopify Development &amp; Consulting</h3>
-        <p className="t-36">Our goal here was to move Organics Alive from WooCommerce to Shopify. <a href="https://www.creativepollinator.com/" target="_blank" rel="noreferrer">Jennie McGuirk</a> created the design direction &amp; branding. I helped setup the Shopify system, pages &amp; processes.</p>
-        <a className="t-36" href="https://www.organicsalivegarden.com" target="_blank" rel="noreferrer">View Website</a>
+        <p className="t-36">Our goal here was to move Organics Alive from WooCommerce to Shopify. <Link to="https://www.creativepollinator.com/" target="_blank" rel="noreferrer">Jennie McGuirk</Link> created the design direction &amp; branding. I helped setup the Shopify system, pages &amp; processes.</p>
+        <Link className="t-36" to="https://www.organicsalivegarden.com" target="_blank" rel="noreferrer">View Website</Link>
       </div>
 
       <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
@@ -131,7 +131,7 @@ const IndexPage = () => (
           <p className="t-18"><em>- Todd Salemi, Founder &amp; President of Organics Alive</em></p>
         </blockquote>
         
-        <a className="t-18" href="https://www.organicsalivegarden.com" target="_blank" rel="noreferrer">View Website</a>
+        <Link className="t-18" to="https://www.organicsalivegarden.com" target="_blank" rel="noreferrer">View Website</Link>
       </div>
     </section>
 

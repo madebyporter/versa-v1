@@ -1,7 +1,7 @@
 // cursor by PopEating https://javascript.plainenglish.io/how-to-create-a-custom-css-pointer-in-react-2d4684215564
 
 import * as React from "react"
-import PropTypes from "prop-types"
+// import PropTypes from "prop-types"
 import { useState, useEffect } from 'react';
 
 
