@@ -328,7 +328,7 @@ const IndexPage = () => (
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.amazon.com/dp/B016S28E4W/ref=dp_iou_view_item?ie=UTF8&psc=1" target="_blank">Fujinon XF35mmF2 R WR</Link></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.amazon.com/dp/B016S28E4W/ref=dp_iou_view_item?ie=UTF8&psc=1" target="_blank">Fujinon XF35mm F2</Link></li>
               <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Fixed Lens</li>
               <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Gear</li>
             </ul>
