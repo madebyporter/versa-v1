@@ -307,9 +307,30 @@ const IndexPage = () => (
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.amazon.com/Fujifilm-Compact-System-Digital-2-8-Inch/dp/B0092MD5UY" target="_blank">Fujifilm X-E1</Link></li>
+              <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Mirrorless Camera</li>
+              <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Gear</li>
+            </ul>
+          </li>
+          <li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.amazon.com/dp/B016S28E4W/ref=dp_iou_view_item?ie=UTF8&psc=1" target="_blank">Fujinon XF35mmF2 R WR</Link></li>
+              <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Fixed Lens</li>
+              <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Gear</li>
+            </ul>
+          </li>
+          <li>
+            <ul className="list-item-columns g-align-items-end">
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://incase.com/products/dslr-pro-pack" target="_blank">Incase DSLR Bag</Link></li>
               <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Backpack</li>
               <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Gear</li>
+            </ul>
+          </li>
+          <li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.nomadlist.com" target="_blank">NomadList</Link></li>
+              <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">City Research</li>
+              <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Tools</li>
             </ul>
           </li>        
         </ul>
