@@ -14,7 +14,7 @@ import oahomepage from "../../images/cases/organicsalive-2019-homepage.png"
 import oahomepagemobile from "../../images/cases/organicsalive-2019-homepage-mobile.png"
 import oaproductdetailmobile from "../../images/cases/organicsalive-2019-productdetail-mobile.png"
 
-const IndexPage = () => (
+const CasePage = () => (
   
   <Layout>
     <Seo 
@@ -142,4 +142,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default CasePage
