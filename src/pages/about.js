@@ -9,7 +9,7 @@ import Hero from "../components/hero"
 const IndexPage = () => (
   
   <Layout>
-    <Seo title="Minimalist designer &amp; problem solver" />
+    <Seo title="About Chris Porter" />
 
     <Hero heroText="Connecting the dots between disciplines" heroDesc="I'm a designer, developer &amp; music producer with a passion for creative problem solving."  />
 
