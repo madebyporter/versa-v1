@@ -55,7 +55,7 @@ const CasePage = () => (
           <li>
             <ul className="list-item-columns g-align-items-start">
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Developer Collaboration</li>
-              <li className="t-18 g-m-1-13 g-t-5-13 g-l-5-13 g-5-13">Worked with Novvum's developers to make sure they got all the needed design assets and made sure the site looks as close to the design as possible.</li>
+              <li className="t-18 g-m-1-13 g-t-5-13 g-l-5-13 g-5-13">Worked with Novvum's developers to make sure they have received all the needed design assets and made sure the site looks as close to the design as possible.</li>
             </ul>
           </li>
           <li>
