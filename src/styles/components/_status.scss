@@ -5,13 +5,13 @@
   height: 8px;
   border-radius: 20px;
 }
-.status-dead {
+.status-red {
   background: #F20049;
 }
-.status-active-partial {
+.status-yellow {
   background: #F2CB00;
 }
-.status-active-full {
+.status-green {
   background: #6BF200;
 }
 .status-label {

@@ -31,14 +31,14 @@ const NavbarLinks = () => {
   return (
     <>
       <motion.div className="nav-section" variants={container} initial="hidden" animate="show">
-        <motion.h3 className="nav-section-header" variants={item}>Site Links</motion.h3>
-        <motion.a className="nav-link" href="#" variants={item}>Internal Page One</motion.a>
-        <motion.a className="nav-link" href="#" variants={item}>Internal Page Two</motion.a>
+        <motion.h3 className="nav-section-header" variants={item}>Porter</motion.h3>
+        <motion.a className="nav-link" href="/about/" variants={item}>About</motion.a>
+        <motion.a className="nav-link" href="/stack/" variants={item}>My Stack</motion.a>
    
-        <motion.h3 className="nav-section-header" variants={item}>External Links</motion.h3>
-        <motion.a className="nav-link nav-link-external" href="#" target="_blank" variants={item}>External Link One</motion.a>
-        <motion.a className="nav-link nav-link-external" href="#" target="_blank" variants={item}>External Link Two</motion.a>
-        <motion.a className="nav-link nav-link-external" href="#" target="_blank" variants={item}>External Link Three</motion.a>
+        <motion.h3 className="nav-section-header" variants={item}>Products</motion.h3>
+        <motion.a className="nav-link nav-link-external" href="https://madebyporter.notion.site/Use-my-Project-Audit-System-550288c2c81b4628a806a0081e8bd601" target="_blank" variants={item}>Project Audit System</motion.a>
+        <motion.a className="nav-link nav-link-external" href="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank" variants={item}>Music Library</motion.a>
+        <motion.a className="nav-link nav-link-external" href="https://www.thinkversa.com" target="_blank" variants={item}>Think Versa</motion.a>
       </motion.div>
     </>
   )

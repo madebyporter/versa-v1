@@ -1,5 +1,4 @@
 import * as React from "react"
-import PropTypes from "prop-types"
 
 
 const Block = ({ blockTitle, blockContent, blockLinkURL, blockLinkTitle, isVisible }) => (
@@ -11,19 +10,5 @@ const Block = ({ blockTitle, blockContent, blockLinkURL, blockLinkTitle, isVisib
     </p>
   </div>
 )
-
-Block.propTypes = {
-  blockTitle: PropTypes.string,
-  blockContent: PropTypes.string,
-  blockLinkURL: PropTypes.string,
-  blockLinkTitle: PropTypes.string,
-}
-
-Block.defaultProps = {
-  blockTitle: ``,
-  blockContent: ``,
-  blockLinkURL: ``,
-  blockLinkTitle: ``,
-}
 
 export default Block
