@@ -57,8 +57,8 @@ const Layout = ({ children }) => {
       <footer className="footer g-align-items-center">
         <nav className="nav nav-horz t-18 g-m-1-13 g-t-1-13 g-l-4-13 g-4-13">
           <h4 className="footer-content">Learn More</h4>
-          <a href="https://www.dribbble.com/madebyporter/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'dribbble']} /></a>
-          <a href="https://linkedin.com/in/madebyporter/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+          <a href="#" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'dribbble']} title='Dribbble' /></a>
+          <a href="#" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} title='Linkedin' /></a>
         </nav>
       </footer>
       

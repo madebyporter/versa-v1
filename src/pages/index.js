@@ -5,6 +5,11 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Hero from "../components/hero"
+import BlockParagraph from "../components/blockParagraph"
+import BlockImage from "../components/blockImage"
+import SectionTitle from "../components/sectionTitle"
+import List from '../components/list'
+import ListItem from '../components/listItem'
 
 import imgPortfolio from "../images/projects-bbx.jpg"
 import imgProjectAuditApp from "../images/mbp-projectauditsystem-gumroad--app.png"
@@ -23,13 +28,14 @@ const IndexPage = () => (
     <Hero heroText="Helping people design systems with minimalism &amp; data." heroDesc="I am Chris Porter, a seasoned designer, developer &amp; audio producer for entrepreneurs. I enjoy building systems for small businesses &amp; early stage startups."  />
 
     <section className="block block-section">
-      <header className="block-header g-m-1-13 g-1-13">
-        <h2 className="t-24 block-header-title g-m-1-13 g-l-4-13 g-4-13">Projects I'm working on right now</h2>
-      </header>
-      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
-        <h3 className="t-36 block-content-title">Creative Freelance Consulting</h3>
-        <p className="t-36">I help teach new freelancers &amp; solopreneurs coming from in-house teams about the aspects of freelancing. You’ll learn how to find clients, negotiate contracts, manage projects &amp; handle your business. <a href="https://calendly.com/madebyporter/consulting" target="_blank"rel="noreferrer">Book a Session</a>.</p>
-      </div>
+      <SectionTitle text="Projects I'm working on right now" />
+
+      <BlockParagraph 
+        blockTitle="Creative Freelance Consulting"
+        blockContent="I help teach new freelancers &amp; solopreneurs coming from in-house teams about the aspects of freelancing. You’ll learn how to find clients, negotiate contracts, manage projects &amp; handle your business." 
+        blockLinkURL="https://calendly.com/madebyporter/consulting"
+        blockLinkTitle="Book a Session"
+      />
 
       <div className="block-portfolio block-portfolio-desktop g-m-1-13">
         <img className="block-portfolio-img" src={imgPortfolio} alt="Portfolio" />  

@@ -1,7 +1,6 @@
 // Navbar
 
 import React, { useState } from "react"
-// import { Link } from "gatsby"
 import NavbarLinks from "./navLinks"
 import { motion } from "framer-motion"
 

@@ -1,9 +1,10 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import logo from "../images/mbp-logo.svg"
+import Logo from './logo'
 
 import { motion } from "framer-motion"
+
 
 const parentAni = {
   visible: {
@@ -30,16 +31,22 @@ const childAni = {
 }
 
 
-const Header = ({ siteTitle, isVisible }) => (
-  <motion.header className="header g-align-items-center" initial="hidden" animate="visible" viewport={{ once: true }} variants={parentAni} transition={{delay: 1}}>
-    <motion.h1 className="header-logo g-m-1-3 g-t-1-2" variants={childAni}>
-      <Link to="/"><img src={logo} alt="Logo" /></Link>
-    </motion.h1>
-    <motion.h2 className="t-36 header-content g-m-1-13 g-t-1-13 g-l-4-13 g-4-13" variants={childAni}>
-      Made by Porter
-    </motion.h2>
-  </motion.header>
-)
+const Header = ({ siteTitle, isVisible }) => {
+
+  return (
+    <>
+      <motion.header className="header g-align-items-center" initial="hidden" animate="visible" viewport={{ once: true }} variants={parentAni} transition={{delay: 1}}>
+        <motion.h1 className="header-logo g-m-1-3 g-t-1-2" variants={childAni}>
+          <Link to="/"><Logo /></Link>
+        </motion.h1>
+        <motion.h2 className="t-36 header-content g-m-1-13 g-t-1-13 g-l-4-13 g-4-13" variants={childAni}>
+          {siteTitle}
+        </motion.h2>
+      </motion.header>
+    </>
+  )
+}
+  
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
