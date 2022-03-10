@@ -78,7 +78,7 @@ const IndexPage = () => (
         <ListItem 
           title="Boom Concepts" 
           titleLink="https://www.boomuniverse.co" 
-          desc="Design amp; Development" 
+          desc="Design &amp; Development" 
           year="2018-" 
           status="green" 
         />
