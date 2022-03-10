@@ -1,6 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
-// import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -15,10 +13,6 @@ import imgPortfolio from "../images/projects-bbx.jpg"
 import imgProjectAuditApp from "../images/mbp-projectauditsystem-gumroad--app.png"
 import imgProjectAuditBG from "../images/mbp-projectauditsystem-gumroad--bg.jpg"
 
-const pasStyles = {
-  backgroundImage: 'url(' + imgProjectAuditBG + ')',
-  backgroundSize: 'cover',
-};
 
 const IndexPage = () => (
   

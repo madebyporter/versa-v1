@@ -3,6 +3,9 @@
 import React, { useState } from "react"
 import NavbarLinks from "./navLinks"
 import { motion } from "framer-motion"
+import styled from 'styled-components'
+
+const Toggle = styled.div``
 
 const Navbar = () => {
 
@@ -10,9 +13,9 @@ const Navbar = () => {
 
   return (
     <div className="nav-component">
-      <div className="nav-trigger" navbarOpen={navbarOpen} onClick={() => setNavbarOpen(!navbarOpen)}>
+      <Toggle className="nav-trigger" navbarOpen={navbarOpen} onClick={() => setNavbarOpen(!navbarOpen)}>
         {navbarOpen ? <div className="nav-trigger-icon nav-trigger-open" open></div> : <div className="nav-trigger-icon nav-trigger-closed"></div>}
-      </div>
+      </Toggle>
 
       {navbarOpen ? (
         <motion.nav className="nav nav-vert nav-global nav-open" open>
