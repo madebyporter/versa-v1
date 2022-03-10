@@ -106,7 +106,7 @@ const CasePage = () => (
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Conversion Rate</li>
               <li className="t-18 g-m-1-7 g-t-1-7 g-l-1-7 g-5-10">
                 2.53% <small>(2021)</small>
-                <span className="data-change dc-up"><FontAwesomeIcon icon={faCircleArrowUp} /> 24% y/y</span>
+                <span className="data-change dc-up">Up 24% y/y</span>
               </li>
               <li className="t-18 g-m-7-13 g-t-7-13 g-l-7-13 g-10-13">2.05% <small>(2020)</small></li>
             </ul>
@@ -116,7 +116,7 @@ const CasePage = () => (
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Returning Customers</li>
               <li className="t-18 g-m-1-7 g-t-1-7 g-l-1-7 g-5-10">
                 34.51% <small>(2021)</small>
-                <span className="data-change dc-up"><FontAwesomeIcon icon={faCircleArrowUp} /> 58% y/y</span>
+                <span className="data-change dc-up">Up 58% y/y</span>
               </li>
               <li className="t-18 g-m-7-13 g-t-7-13 g-l-7-13 g-10-13">21.9% <small>(2020)</small></li>
             </ul>
