@@ -6,10 +6,6 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Hero from "../../components/hero"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleArrowUp } from '@fortawesome/pro-solid-svg-icons'
-import { faCircleArrowDown } from '@fortawesome/pro-solid-svg-icons'
-
 import oahomepage from "../../images/cases/organicsalive-2019-homepage.png"
 import oahomepagemobile from "../../images/cases/organicsalive-2019-homepage-mobile.png"
 import oaproductdetailmobile from "../../images/cases/organicsalive-2019-productdetail-mobile.png"
@@ -90,7 +86,7 @@ const CasePage = () => (
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Sales</li>
               <li className="t-18 g-m-1-7 g-t-1-7 g-l-1-7 g-5-10">
                 $250,000 <small>(2021)</small>
-                <span className="data-change dc-up"><FontAwesomeIcon icon={faCircleArrowUp} /> 25% y/y</span>
+                <span className="data-change dc-up">Up 25% y/y</span>
               </li>
               <li className="t-18 g-m-7-13 g-t-7-13 g-l-7-13 g-10-13">$200,000 <small>(2020)</small></li>
             </ul>
@@ -100,7 +96,7 @@ const CasePage = () => (
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4">Sessions</li>
               <li className="t-18 g-m-1-7 g-t-1-7 g-l-1-7 g-5-10">
                 36,713 <small>(2021)</small>
-                <span className="data-change dc-down"><FontAwesomeIcon icon={faCircleArrowDown} /> 10% y/y</span>
+                <span className="data-change dc-down">Dn 10% y/y</span>
               </li>
               <li className="t-18 g-m-7-13 g-t-7-13 g-l-7-13 g-10-13">40,829 <small>(2020)</small></li>
             </ul>

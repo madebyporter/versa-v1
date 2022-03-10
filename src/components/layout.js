@@ -11,17 +11,12 @@ import { useStaticQuery, graphql } from "gatsby"
 // import { Link } from "gatsby"
 import Navbar from "./navGlobal"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
 import { motion } from "framer-motion"
 import Cursor from './cursor'
 
 import "../styles/site.scss"
 
 import Header from "./header"
-
-library.add(fab);
 
 
 const Layout = ({ children }) => {
@@ -56,9 +51,9 @@ const Layout = ({ children }) => {
       <main className="main">{children}</main>
       <footer className="footer g-align-items-center">
         <nav className="nav nav-horz t-18 g-m-1-13 g-t-1-13 g-l-4-13 g-4-13">
-          <h4 className="footer-content">Learn More</h4>
-          <a href="#" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'dribbble']} title='Dribbble' /></a>
-          <a href="#" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} title='Linkedin' /></a>
+          <h4 className="footer-content">Social</h4>
+          <a href="https://www.dribbble.com/madebyporter" target="_blank" rel="noreferrer">Dribbble</a>
+          <a href="https://www.linkedin.com/in/madebyporter" target="_blank" rel="noreferrer">Linkedin</a>
         </nav>
       </footer>
       

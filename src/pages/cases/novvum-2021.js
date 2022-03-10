@@ -6,10 +6,6 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Hero from "../../components/hero"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleArrowUp } from '@fortawesome/pro-solid-svg-icons'
-import { faCircleArrowDown } from '@fortawesome/pro-solid-svg-icons'
-
 import novvumDesktopHome from "../../images/cases/novvum-desktop-home.jpg"
 import novvumDesktopCareers from "../../images/cases/novvum-desktop-careers.jpg"
 

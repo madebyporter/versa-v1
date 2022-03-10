@@ -6,10 +6,6 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Hero from "../../components/hero"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleArrowUp } from '@fortawesome/pro-solid-svg-icons'
-import { faCircleArrowDown } from '@fortawesome/pro-solid-svg-icons'
-
 import rfhomepage from "../../images/cases/ronfinley-desktop-home.jpg"
 import rfprojectmobile from "../../images/cases/ronfinley-mobile-project-1.jpg"
 import rfprojectmobile2 from "../../images/cases/ronfinley-mobile-project-2.jpg"
