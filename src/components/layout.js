@@ -18,7 +18,6 @@ import "../styles/site.scss"
 
 import Header from "./header"
 
-
 const Layout = ({ children }) => {
 
   const data = useStaticQuery(graphql`
@@ -33,19 +32,37 @@ const Layout = ({ children }) => {
 
   const shadeInit = {
     visible: {
-      opacity: 1, y: 0
-    },
-    hidden: {
-      opacity: 0, y: 0, transitionEnd: {display: "none"},
+      opacity: 1, y: 0, 
       transition: {
+        display: "block", delay: 1
+      },
+      transitionEnd: {
         ease: "easeInOut", duration: 0.7, delay: 1
       }
-    }
+    },
+    hidden: {
+      opacity: 0, y: 0,
+      transition: {
+        ease: "easeInOut", duration: 0.7, delay: 1
+      },
+      transitionEnd: {
+        y: 1000,
+      },
+    },
+    exit: {
+      y: 1000, 
+      transition: {
+        delay: 1
+      },
+      transitionEnd: {
+        opacity: 1, ease: "easeInOut", duration: 0.7, delay: 1
+      }
+    },
   }
 
   return (
     <>
-      <motion.div className="site-cover off" variants={shadeInit} initial="visible" animate="hidden" />
+      <motion.div className="site-cover" variants={shadeInit} initial="visible" animate="hidden" exit="visible" />
 
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main className="main">{children}</main>
@@ -61,6 +78,11 @@ const Layout = ({ children }) => {
             <a href="https://www.github.com/madebyporter" target="_blank" rel="noreferrer">Github</a>
             <a href="https://www.soundcloud.com/madebyporter" target="_blank" rel="noreferrer">Soundcloud</a>
           </nav>
+        </div>
+        <div className="g-m-1-13 g-t-1-13 g-l-4-13 g-4-13">
+          © {new Date().getFullYear()}, Built with
+          {` `}
+          <a href="https://www.gatsbyjs.com">Gatsby</a>  
         </div>
       </footer>
       

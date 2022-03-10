@@ -10,7 +10,7 @@ const parentAni = {
       staggerChildren: 0.5,
       duration: 1,
       ease: "easeOut",
-      delay: 2
+      delay: 1
     },
   },
   hidden: {

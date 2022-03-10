@@ -1,5 +1,5 @@
 import * as React from "react"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 import { motion } from "framer-motion"
 
 const container = {
@@ -32,8 +32,12 @@ const NavbarLinks = () => {
     <>
       <motion.div className="nav-section" variants={container} initial="hidden" animate="show">
         <motion.h3 className="nav-section-header" variants={item}>Porter</motion.h3>
-        <motion.a className="nav-link" href="/about/" variants={item}>About</motion.a>
-        <motion.a className="nav-link" href="/stack/" variants={item}>My Stack</motion.a>
+        <motion.div className="nav-link" variants={item}>
+          <Link to="/about/">About</Link>
+        </motion.div>
+        <motion.div className="nav-link" variants={item}>
+          <Link to="/stack/">Stack</Link>
+        </motion.div>
    
         <motion.h3 className="nav-section-header" variants={item}>Products</motion.h3>
         <motion.a className="nav-link nav-link-external" href="https://madebyporter.notion.site/Use-my-Project-Audit-System-550288c2c81b4628a806a0081e8bd601" target="_blank" variants={item}>Project Audit System</motion.a>

@@ -146,13 +146,13 @@
 
   // Links
   a {
-    border-bottom: 3px solid $color-black;
+    border-bottom: 2px solid $color-black;
     color: $color-black;
     font-weight: $fw-b;
     padding-bottom: 3px;
     text-decoration: none;
     &:hover {
-      border-bottom: 6px solid $color-gray;
+      border-bottom: 4px solid $color-gray;
       color: $color-gray;
     }
   }
