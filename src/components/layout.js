@@ -34,28 +34,25 @@ const Layout = ({ children }) => {
     visible: {
       opacity: 1, y: 0, 
       transition: {
-        display: "block", delay: 1
-      },
-      transitionEnd: {
-        ease: "easeInOut", duration: 0.7, delay: 1
+        ease: "easeInOut", duration: 0.7, delay: 0.2
       }
     },
     hidden: {
       opacity: 0, y: 0,
       transition: {
-        ease: "easeInOut", duration: 0.7, delay: 1
+        ease: "easeInOut", duration: 0.7, delay: 0.2
       },
       transitionEnd: {
         y: 1000,
       },
     },
     exit: {
-      y: 1000, 
+      delay: 0.5, opacity: 1, y: 1000,
       transition: {
-        delay: 1
+        y: 0, ease: "easeInOut", duration: 0.4, 
       },
       transitionEnd: {
-        opacity: 1, ease: "easeInOut", duration: 0.7, delay: 1
+        
       }
     },
   }
