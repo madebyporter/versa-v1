@@ -114,8 +114,10 @@
   background: $color-black;
   border-radius: 32px;
   bottom: $space-x2;
+  cursor: pointer;
   left: $space-x2;
   height: 32px;
+  overflow: hidden;
   position: fixed;
   width: 32px;
   z-index: 1001;
@@ -128,6 +130,16 @@
     @extend .t-18;
   }
 }
+.nav-trigger-icon {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
 .nav-trigger-closed {
- 
+  background: url('../images/icons/icon-bars.svg') no-repeat center $color-black;
+  background-size: cover;
+}
+.nav-trigger-open {
+  background: url('../images/icons/icon-xmark.svg') no-repeat center $color-black;
+  background-size: cover;
 }
