@@ -1,8 +1,10 @@
 .footer {
   @extend .grid;
   padding: $space-x2;
+  margin-bottom: $space-x8;
   @media (min-width: $mq-laptop) {
     padding: $space-x4 0;
+    margin: 0;
   }
 }
 .footer-content {

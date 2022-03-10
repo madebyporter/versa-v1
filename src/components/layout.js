@@ -50,11 +50,18 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main className="main">{children}</main>
       <footer className="footer g-align-items-center">
-        <nav className="nav nav-horz t-18 g-m-1-13 g-t-1-13 g-l-4-13 g-4-13">
-          <h4 className="footer-content">Social</h4>
-          <a href="https://www.dribbble.com/madebyporter" target="_blank" rel="noreferrer">Dribbble</a>
-          <a href="https://www.linkedin.com/in/madebyporter" target="_blank" rel="noreferrer">Linkedin</a>
-        </nav>
+        <div className="g-m-1-13 g-t-1-13 g-l-4-13 g-4-13">
+          <h3 className="margin-bottom-small subheader">Social Media</h3>
+          <nav className="nav nav-horz t-14">
+            <a href="https://www.dribbble.com/madebyporter" target="_blank" rel="noreferrer">Dribbble</a>
+            <a href="https://www.linkedin.com/in/madebyporter" target="_blank" rel="noreferrer">Linkedin</a>
+            <a href="https://www.twitter.com/madebyporter" target="_blank" rel="noreferrer">Twitter</a>
+            <a href="https://www.instagram.com/madebyporter" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://bitclout.com/u/madebyporter" target="_blank" rel="noreferrer">Deso</a>
+            <a href="https://www.github.com/madebyporter" target="_blank" rel="noreferrer">Github</a>
+            <a href="https://www.soundcloud.com/madebyporter" target="_blank" rel="noreferrer">Soundcloud</a>
+          </nav>
+        </div>
       </footer>
       
       <Navbar />
