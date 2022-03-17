@@ -40,8 +40,9 @@ const NavbarLinks = () => {
         </motion.div>
    
         <motion.h3 className="nav-section-header" variants={item}>Products</motion.h3>
-        <motion.a className="nav-link nav-link-external" href="https://madebyporter.notion.site/Use-my-Project-Audit-System-550288c2c81b4628a806a0081e8bd601" target="_blank" variants={item}>Project Audit System</motion.a>
-        <motion.a className="nav-link nav-link-external" href="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank" variants={item}>Music Library</motion.a>
+        <motion.a className="nav-link nav-link-external" href="https://madebyporter.gumroad.com/l/projective" target="_blank" variants={item}>Projective Notion Template</motion.a>
+        <motion.a className="nav-link nav-link-external" href="https://calendly.com/madebyporter/consulting" target="_blank" variants={item}>Freelancer Mentorship</motion.a>
+        <motion.a className="nav-link nav-link-external" href="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank" variants={item}>Music Production Library</motion.a>
         <motion.a className="nav-link nav-link-external" href="https://www.thinkversa.com" target="_blank" variants={item}>Think Versa</motion.a>
       </motion.div>
     </>
