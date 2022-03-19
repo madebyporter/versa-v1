@@ -7,7 +7,6 @@ import BlockParagraph from "../components/blockParagraph"
 import BlockImage from "../components/blockImage"
 import SectionTitle from "../components/sectionTitle"
 import List from '../components/list'
-import ListItem from '../components/listItem'
 
 import imgPortfolio from "../images/projects-bbx.jpg"
 import imgProjective from "../images/mbp-projective-banner.png"
@@ -74,36 +73,7 @@ const IndexPage = () => (
         blockLinkTitle="Book a Session"
       />
 
-      <List listTitle="Current Clients" statusGreenTitle="Active" statusYellowTitle="In Spirit" statusRedTitle="Archived">
-        <ListItem 
-          title="Faithful Homes" 
-          titleLink="https://www.faithfulhomes.biz" 
-          desc="Product Design" 
-          year="2018–" 
-          status="green" 
-        />
-        <ListItem 
-          title="Organics Alive" 
-          titleLink="/cases/organicsalive-2019" 
-          desc="Shopify Development" 
-          year="2018–" 
-          status="green" 
-        />
-        <ListItem 
-          title="Boom Concepts" 
-          titleLink="https://www.boomuniverse.co" 
-          desc="Design &amp; Development" 
-          year="2018-" 
-          status="green" 
-        />
-        <ListItem 
-          title="Ron Finley" 
-          titleLink="/cases/ronfinley-2016" 
-          desc="Design &amp; Development" 
-          year="2015-" 
-          status="green" 
-        />
-      </List>
+      
     </section>
   </Layout>
 )

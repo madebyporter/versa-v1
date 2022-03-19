@@ -1,0 +1,61 @@
+{
+  "title": "Resume",
+  "content": [
+    {
+      "project": "Faithful Homes",
+      "role": "Product Design",
+      "year": "2018-",
+      "status": "green",
+      "link": ""
+    },
+    {
+      "project": "Organics Alive",
+      "role": "Shopify Development",
+      "year": "2018-",
+      "status": "green",
+      "link": "/cases/organicsalive-2019"
+    },
+    {
+      "project": "Boom Concepts",
+      "role": "Web Design &amp; Development",
+      "year": "2018-",
+      "status": "green",
+      "link": ""
+    },
+    {
+      "project": "Ron Finley Project",
+      "role": "Web Design &amp; Development",
+      "year": "2016-",
+      "status": "green",
+      "link": "/cases/ronfinley-2016"
+    },
+    {
+      "project": "ReactHeadless.com",
+      "role": "Web Design with Novvum",
+      "year": "2021",
+      "status": "green",
+      "link": "/cases/reactheadless-2021"
+    },
+    {
+      "project": "Apple",
+      "role": "CSS Development with Novvum",
+      "year": "2021",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Ivy Park",
+      "role": "CSS Development with Novvum",
+      "year": "2021",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Digmee PIMDesk",
+      "role": "Product Design",
+      "year": "2021",
+      "status": "red",
+      "link": ""
+    }
+  ]
+}
