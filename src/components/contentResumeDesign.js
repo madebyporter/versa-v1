@@ -2,7 +2,6 @@ import * as React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
 import List from './list'
-// import dataResume from "../../content/resume.json"
 
 export default function DataResumeJSON() {
   const data = useStaticQuery(graphql`

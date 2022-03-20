@@ -6,6 +6,7 @@ import Hero from "../components/hero"
 import BlockParagraph from "../components/blockParagraph"
 import BlockImage from "../components/blockImage"
 import SectionTitle from "../components/sectionTitle"
+import ContentResumeHome from "../components/contentResumeHome"
 
 import imgPortfolio from "../images/projects-bbx.jpg"
 import imgProjective from "../images/mbp-projective-banner.png"
@@ -72,6 +73,7 @@ const IndexPage = () => (
         blockLinkTitle="Book a Session"
       />
 
+      <ContentResumeHome />
       
     </section>
   </Layout>

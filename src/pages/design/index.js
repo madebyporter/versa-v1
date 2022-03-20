@@ -5,7 +5,7 @@ import Seo from "../../components/seo"
 import Hero from "../../components/hero"
 import BlockParagraph from "../../components/blockParagraph"
 import SectionTitle from "../../components/sectionTitle"
-import ContentResume from "../../components/contentResume"
+import ContentResumeDesign from "../../components/contentResumeDesign"
 
 const IndexPage = () => (
   
@@ -54,7 +54,7 @@ const IndexPage = () => (
         </p>
       </div>
 
-      <ContentResume />
+      <ContentResumeDesign />
 
       <BlockParagraph 
         blockTitle="How to Get Started?"
