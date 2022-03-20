@@ -135,6 +135,9 @@
     letter-spacing: 0.01rem;
     margin-bottom: $space-x1;
   }
+  .nowrap {
+    white-space: nowrap;
+  }
 
   // Paragraphs
   p {
