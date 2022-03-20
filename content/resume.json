@@ -2,6 +2,20 @@
   "title": "Resume",
   "content": [
     {
+      "project": "ReactHeadless.com",
+      "role": "Web Design with Novvum",
+      "year": "2021-",
+      "status": "green",
+      "link": "/cases/reactheadless-2021"
+    },
+    {
+      "project": "Novvum.io",
+      "role": "Web Design with Novvum",
+      "year": "2021-",
+      "status": "green",
+      "link": "/cases/novvum-2021"
+    },
+    {
       "project": "Faithful Homes",
       "role": "Product Design",
       "year": "2018-",
@@ -17,24 +31,24 @@
     },
     {
       "project": "Boom Concepts",
-      "role": "Web Design &amp; Development",
+      "role": "Web Design & Development",
+      "year": "2018-",
+      "status": "green",
+      "link": ""
+    },
+    {
+      "project": "Squrl Fitness",
+      "role": "Web Design & Development",
       "year": "2018-",
       "status": "green",
       "link": ""
     },
     {
       "project": "Ron Finley Project",
-      "role": "Web Design &amp; Development",
+      "role": "Web Design & Development",
       "year": "2016-",
       "status": "green",
       "link": "/cases/ronfinley-2016"
-    },
-    {
-      "project": "ReactHeadless.com",
-      "role": "Web Design with Novvum",
-      "year": "2021",
-      "status": "green",
-      "link": "/cases/reactheadless-2021"
     },
     {
       "project": "Apple",
@@ -54,6 +68,223 @@
       "project": "Digmee PIMDesk",
       "role": "Product Design",
       "year": "2021",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Leslie Stefanson",
+      "role": "Wordpress Development",
+      "year": "2019",
+      "status": "yellow",
+      "link": ""
+    },
+    {
+      "project": "Zelmins",
+      "role": "Shopify Development",
+      "year": "2019",
+      "status": "yellow",
+      "link": ""
+    },
+    {
+      "project": "Hyrecar",
+      "role": "Product Design",
+      "year": "2018",
+      "status": "yellow",
+      "link": ""
+    },
+    {
+      "project": "Laki Natural",
+      "role": "Shopify Development",
+      "year": "2018",
+      "status": "yellow",
+      "link": ""
+    },
+    {
+      "project": "Gigmor",
+      "role": "Product Design",
+      "year": "2017",
+      "status": "yellow",
+      "link": ""
+    },
+    {
+      "project": "I Fly You Buy",
+      "role": "Product Design",
+      "year": "2017",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Live Raise",
+      "role": "Product Design",
+      "year": "2017",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Foundation Transportation",
+      "role": "Jamstack Design & Development",
+      "year": "2016",
+      "status": "yellow",
+      "link": ""
+    },
+    {
+      "project": "Silicon Beach Talent",
+      "role": "Wordpress Design & Development",
+      "year": "2016",
+      "status": "yellow",
+      "link": ""
+    },
+    {
+      "project": "Newscrack",
+      "role": "User Interface Design",
+      "year": "2015",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Paystr",
+      "role": "Product Design",
+      "year": "2014",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Faith Alliance",
+      "role": "Web Design",
+      "year": "2014",
+      "status": "yellow",
+      "link": ""
+    },
+    {
+      "project": "Jeanine Mckirnan",
+      "role": "Web Design & Development",
+      "year": "2014",
+      "status": "yellow",
+      "link": ""
+    },
+    {
+      "project": "Stonetown Restaurant",
+      "role": "Web Design & Development",
+      "year": "2013",
+      "status": "yellow",
+      "link": ""
+    },
+    {
+      "project": "HRCloud",
+      "role": "Product Design",
+      "year": "2013",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Jaye Neutron",
+      "role": "Web Design & Development",
+      "year": "2013",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Angies Soul Cafe",
+      "role": "Web Design",
+      "year": "2013",
+      "status": "yellow",
+      "link": ""
+    },
+    {
+      "project": "Bonqo",
+      "role": "UI Design",
+      "year": "2012",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Yes to the Know",
+      "role": "Wordpress Design & Development",
+      "year": "2012",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Young Yonny",
+      "role": "Web Design & Development",
+      "year": "2011",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Zanzibar Ohio",
+      "role": "Web Design & Development",
+      "year": "2011",
+      "status": "yellow",
+      "link": ""
+    },
+    {
+      "project": "2Pac Birthday Concert",
+      "role": "Web Design",
+      "year": "2010",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Wawadoo",
+      "role": "Product Design",
+      "year": "2010",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Giant Eagle",
+      "role": "Web Design with Buzzhoney",
+      "year": "2009",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Dick's Sporting Goods",
+      "role": "UI Design with Buzzhoney",
+      "year": "2009",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "LeedsWorld",
+      "role": "Web Design with Buzzhoney",
+      "year": "2008",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "UPMC",
+      "role": "Web Design with Buzzhoney",
+      "year": "2008",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "General Electric",
+      "role": "Web Design with Buzzhoney",
+      "year": "2007",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "Fab 5 Entertainment",
+      "role": "Web Design",
+      "year": "2007",
+      "status": "red",
+      "link": ""
+    },
+    {
+      "project": "The Art Institute of Pittsburgh",
+      "role": "BS, Interactive Media Design",
+      "year": "2005",
+      "status": "yellow",
+      "link": ""
+    },
+    {
+      "project": "Shaw High Comm. Arts",
+      "role": "Web Design",
+      "year": "2004",
       "status": "red",
       "link": ""
     }
