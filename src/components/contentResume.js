@@ -4,24 +4,23 @@ import { Link } from "gatsby"
 import List from './list'
 // import dataResume from "../../content/resume.json"
 
-export default function dataResumeJSON() {
+export default function DataResumeJSON() {
   const data = useStaticQuery(graphql`
-      query dataResume {
-        contentJson {
-          title
-          content {
-            link
-            project
-            role
-            status
-            year
-          }
+    query {
+      allResumeJson(sort: { fields: [year], order: DESC }) {
+        nodes {
+          year
+          status
+          role
+          project
+          link
         }
       }
+    }
   `)
   return (
-    <List listTitle={dataResumeJSON.contentJson.title} statusGreenTitle="Active" statusYellowTitle="In Spirit" statusRedTitle="Archived">
-      {dataResumeJSON.contentJson.content.map((data) => (
+    <List listTitle="Resume" statusGreenTitle="Active" statusYellowTitle="In Spirit" statusRedTitle="Archived">
+      {data.allResumeJson.nodes.map(data => (
         <li>
           <ul className="list-item-columns g-align-items-end">
             <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-5 nowrap">

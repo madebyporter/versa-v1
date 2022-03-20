@@ -6,7 +6,6 @@ import Hero from "../components/hero"
 import BlockParagraph from "../components/blockParagraph"
 import BlockImage from "../components/blockImage"
 import SectionTitle from "../components/sectionTitle"
-import List from '../components/list'
 
 import imgPortfolio from "../images/projects-bbx.jpg"
 import imgProjective from "../images/mbp-projective-banner.png"

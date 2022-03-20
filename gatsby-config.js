@@ -25,7 +25,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `resume`,
-        path: `${__dirname}/content/resume.json`,
+        path: `${__dirname}/data/resume`,
       },
     },
     `gatsby-transformer-sharp`,
