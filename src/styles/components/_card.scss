@@ -1,0 +1,83 @@
+// Card Generic
+.card {
+  background: $color-white;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.05);
+  width: 320px;
+  @media (min-width: $mq-tablet) {
+    width: 480px;
+  }
+}
+.card--image {
+  background: $color-beige;
+}
+.card--tagset {
+  border-bottom: 1px solid $color-beige;
+  display: flex;
+  gap: 0 $space-x1;
+  margin: 0;
+  padding: 0 0 $space-x1;
+  @media (min-width: $mq-tablet) {
+    gap: 0 $space-x2;
+  }
+}
+.card--tag {
+  @extend .subheader;
+  margin: 0;
+}
+.card--title {
+  margin: 0 0 $space-x1;
+}
+
+// Card Case
+.card-case {
+  padding: $space-x2;
+
+  .card--image {
+    border-radius: 2px;
+    height: 200px;
+    margin: 0 0 $space-x2;
+    width: 100%;
+    @media (min-width: $mq-tablet) {
+      height: 262px;
+    }
+  }
+  .card--tagset {
+    margin: 0 $space-x1 $space-x1;
+  }
+  .card--content {
+    margin: 0 $space-x1 $space-x1;
+  }
+}
+
+// Card Carousel
+.card-carousel {
+  min-height: 330px;
+  overflow-x: scroll;
+  position: relative;
+  width: 106%;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  @media (min-width: $mq-tablet) {
+    width: 100%;
+  }
+}
+.card-carousel::-webkit-scrollbar {
+  display: none;
+}
+.card-carousel--track {
+  display: flex;
+  gap: 0 $space-x2;
+  padding: 0 $space-x2 0 0;
+  position: absolute;
+  @media (min-width: $mq-tablet) {
+    padding: 0 $space-x4 0 0;
+    gap: 0 $space-x4;
+  }
+}
+.card-carousel-cases {
+  height: 460px;
+  @media (min-width: $mq-tablet) {
+    height: 528px;
+  }
+}
