@@ -16,8 +16,7 @@ const IndexPage = () => (
     <Hero heroText="Design Engineer creating systems for creative founders."  />
 
     <section className="block block-section">
-      <SectionTitle text="Design Services" />
-
+      
       <div className="grid block-content g-m-1-13 g-l-4-12 g-4-12">
         <div className="g-m-1-13 g-l-1-6 g-1-6">
           Systems Design
@@ -32,20 +31,20 @@ const IndexPage = () => (
       <SectionTitle text="Systems Design" />
 
       <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
-        <h3 className="t-36 block-content-title">Abstract</h3>
+        <h3 className="t-36 block-content-title">Why you'll need systems design?</h3>
         <p className="t-36">
-          You’re a founder looking to scale up your proven business model from minimal viable product to next level. You want to spend more time on the business than the website or app. 
+          You're a founder of a startup or small business looking to scale up your proven business model. You want to spend more time growing the business than tinkering in the design &amp; code. 
         </p>
         <p className="t-24">
           Your goal is to find an expert who can scale up your digital system, improve design usability and improve your results. I help founders by auditing your current system, creating a plan and improving the system. 
         </p>
-        <p className="t-24">
-          <strong>Location:</strong> Remote; Slack for Communication.<br />
-          <strong>Scheduling:</strong> 4-12 weeks, plus one month of support.<br />
-          <strong>Deliverable:</strong> Discovery playbook, new website or app &amp; one month of support.<br />
-          <strong>Qualification:</strong> Most effective for companies already making between $100,000 &amp; $500,000 before profit, with a company size of 1-10 &amp; majority of your sales are generated online.<br />
-          <strong>Price:</strong> $10,000+, depending on size of project.
-        </p>
+        <ul className="list-bordered">
+          <li className="t-24"><strong>Location:</strong> Remote; Slack for Communication.</li>
+          <li className="t-24"><strong>Scheduling:</strong> 4-12 weeks, plus one month of support.</li>
+          <li className="t-24"><strong>Deliverable:</strong> Discovery playbook, new website or app &amp; one month of support.</li>
+          <li className="t-24"><strong>Qualification:</strong> Most effective for companies already making between $100,000 &amp; $500,000 before profit, with a company size of 1-10 &amp; majority of your sales are generated online.</li>
+          <li className="t-24"><strong>Price:</strong> $10,000+, depending on size of project.</li>
+        </ul>
       </div>
 
       <div className="block-content grid g-m-1-13 g-l-1-13 g-1-13">
@@ -112,7 +111,7 @@ const IndexPage = () => (
       <SectionTitle text="Design Systems" />
 
       <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
-        <h3 className="t-36 block-content-title">Abstract</h3>
+        <h3 className="t-36 block-content-title">Why you'll need a design system?</h3>
         <p className="t-36">
           You’re a founder looking to turn your minimal viable process into a minimal viable product. 
         </p>
@@ -121,29 +120,109 @@ const IndexPage = () => (
         </p>
       </div>
 
-      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
-        <h3 className="t-36 block-content-title">Templates</h3>
-        <p className="t-24">
-          templates
-        </p>
+      <div className="block-content grid g-m-1-13 g-l-1-13 g-1-13">
+
+        <div className="card-carousel card-carousel-cases grid g-m-1-13 g-l-1-13 g-1-13">
+          <div className="card-carousel--track g-m-1-13 g-l-4-13 g-4-13">
+            <div className="card card-case">
+              <div className="card--image"></div>
+              <div className="card--tagset">
+                <span className="card--tag">Website</span>
+                <span className="card--tag">Design</span>
+                <span className="card--tag">Code</span>
+              </div>
+              <div className="card--content">
+                <h3 className="card--title t-24">Organics Alive Garden</h3>
+                <p className="card--paragraph t-18">Moving an organic cannabis fertilizer brand from Wordpress to Shopify.</p>
+                <Link className="t-18" to="/cases/organicsalive-2019">View Case Study &raquo;</Link>
+              </div>
+            </div>
+            <div className="card card-case">
+              <div className="card--image"></div>
+              <div className="card--tagset">
+                <span className="card--tag">Website</span>
+                <span className="card--tag">Design</span>
+                <span className="card--tag">Code</span>
+              </div>
+              <div className="card--content">
+                <h3 className="card--title t-24">Organics Alive Garden</h3>
+                <p className="card--paragraph t-18">Moving an organic cannabis fertilizer brand from Wordpress to Shopify.</p>
+                <Link className="t-18" to="/cases/organicsalive-2019">View Case Study &raquo;</Link>
+              </div>
+            </div>
+            <div className="card card-case">
+              <div className="card--image"></div>
+              <div className="card--tagset">
+                <span className="card--tag">Website</span>
+                <span className="card--tag">Design</span>
+                <span className="card--tag">Code</span>
+              </div>
+              <div className="card--content">
+                <h3 className="card--title t-24">Organics Alive Garden</h3>
+                <p className="card--paragraph t-18">Moving an organic cannabis fertilizer brand from Wordpress to Shopify.</p>
+                <Link className="t-18" to="/cases/organicsalive-2019">View Case Study &raquo;</Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section className="block block-section">
-      <SectionTitle text="Library" />
+      <SectionTitle text="Design &amp; Code Insights" />
 
       <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
-        <h3 className="t-36 block-content-title">Abstract</h3>
+        <h3 className="t-36 block-content-title">Why you'll need design insights?</h3>
         <p className="t-36">
-          Below is a gathering of links I save in my Raindrop account that’s design related. Blog posts will come soon. 
+          You're either a designer looking to learn new things. Maybe you're a founder looking to understand what's the latest and greatest in the tech industry. Below are my latest design writing and links for you to explore.
         </p>
       </div>
 
-      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
-        <h3 className="t-36 block-content-title">Posts</h3>
-        <p className="t-24">
-          library posts
-        </p>
+      <div className="block-content grid g-m-1-13 g-l-1-13 g-1-13">
+
+        <div className="card-carousel card-carousel-cases grid g-m-1-13 g-l-1-13 g-1-13">
+          <div className="card-carousel--track g-m-1-13 g-l-4-13 g-4-13">
+            <div className="card card-case">
+              <div className="card--image"></div>
+              <div className="card--tagset">
+                <span className="card--tag">Website</span>
+                <span className="card--tag">Design</span>
+                <span className="card--tag">Code</span>
+              </div>
+              <div className="card--content">
+                <h3 className="card--title t-24">Organics Alive Garden</h3>
+                <p className="card--paragraph t-18">Moving an organic cannabis fertilizer brand from Wordpress to Shopify.</p>
+                <Link className="t-18" to="/cases/organicsalive-2019">View Case Study &raquo;</Link>
+              </div>
+            </div>
+            <div className="card card-case">
+              <div className="card--image"></div>
+              <div className="card--tagset">
+                <span className="card--tag">Website</span>
+                <span className="card--tag">Design</span>
+                <span className="card--tag">Code</span>
+              </div>
+              <div className="card--content">
+                <h3 className="card--title t-24">Organics Alive Garden</h3>
+                <p className="card--paragraph t-18">Moving an organic cannabis fertilizer brand from Wordpress to Shopify.</p>
+                <Link className="t-18" to="/cases/organicsalive-2019">View Case Study &raquo;</Link>
+              </div>
+            </div>
+            <div className="card card-case">
+              <div className="card--image"></div>
+              <div className="card--tagset">
+                <span className="card--tag">Website</span>
+                <span className="card--tag">Design</span>
+                <span className="card--tag">Code</span>
+              </div>
+              <div className="card--content">
+                <h3 className="card--title t-24">Organics Alive Garden</h3>
+                <p className="card--paragraph t-18">Moving an organic cannabis fertilizer brand from Wordpress to Shopify.</p>
+                <Link className="t-18" to="/cases/organicsalive-2019">View Case Study &raquo;</Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </Layout>

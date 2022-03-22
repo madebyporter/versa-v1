@@ -5,6 +5,9 @@
   & > li {
     border-bottom: 1px solid $color-black;
     padding: $space-x2 0;
+    &:last-child {
+      border-bottom: 0;
+    }
   }
 }
 
