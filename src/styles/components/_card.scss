@@ -24,6 +24,7 @@
 .card--tag {
   @extend .subheader;
   margin: 0;
+  text-transform: capitalize;
 }
 .card--title {
   margin: 0 0 $space-x1;

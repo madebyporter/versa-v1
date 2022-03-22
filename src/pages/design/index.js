@@ -7,6 +7,7 @@ import Hero from "../../components/hero"
 import BlockParagraph from "../../components/blockParagraph"
 import SectionTitle from "../../components/sectionTitle"
 import ContentResumeDesign from "../../components/contentResumeDesign"
+import LibDesignCases from "../../components/libDesignCases"
 
 const IndexPage = () => (
   
@@ -52,49 +53,7 @@ const IndexPage = () => (
           <h3 className="t-36 block-content-title margin-bottom-small">Case Studies</h3>
         </div>
 
-        <div className="card-carousel card-carousel-cases grid g-m-1-13 g-l-1-13 g-1-13">
-          <div className="card-carousel--track g-m-1-13 g-l-4-13 g-4-13">
-            <div className="card card-case">
-              <div className="card--image"></div>
-              <div className="card--tagset">
-                <span className="card--tag">Website</span>
-                <span className="card--tag">Design</span>
-                <span className="card--tag">Code</span>
-              </div>
-              <div className="card--content">
-                <h3 className="card--title t-24">Organics Alive Garden</h3>
-                <p className="card--paragraph t-18">Moving an organic cannabis fertilizer brand from Wordpress to Shopify.</p>
-                <Link className="t-18" to="/cases/organicsalive-2019">View Case Study &raquo;</Link>
-              </div>
-            </div>
-            <div className="card card-case">
-              <div className="card--image"></div>
-              <div className="card--tagset">
-                <span className="card--tag">Website</span>
-                <span className="card--tag">Design</span>
-                <span className="card--tag">Code</span>
-              </div>
-              <div className="card--content">
-                <h3 className="card--title t-24">Organics Alive Garden</h3>
-                <p className="card--paragraph t-18">Moving an organic cannabis fertilizer brand from Wordpress to Shopify.</p>
-                <Link className="t-18" to="/cases/organicsalive-2019">View Case Study &raquo;</Link>
-              </div>
-            </div>
-            <div className="card card-case">
-              <div className="card--image"></div>
-              <div className="card--tagset">
-                <span className="card--tag">Website</span>
-                <span className="card--tag">Design</span>
-                <span className="card--tag">Code</span>
-              </div>
-              <div className="card--content">
-                <h3 className="card--title t-24">Organics Alive Garden</h3>
-                <p className="card--paragraph t-18">Moving an organic cannabis fertilizer brand from Wordpress to Shopify.</p>
-                <Link className="t-18" to="/cases/organicsalive-2019">View Case Study &raquo;</Link>
-              </div>
-            </div>
-          </div>
-        </div>
+        <LibDesignCases />
       </div>
 
       <ContentResumeDesign />
