@@ -53,7 +53,7 @@ main {
   display: flex;
   justify-content: center;
   margin: 0 0 $space-x2;
-  padding: $space-x4 $space-x2;
+  padding: $space-x2 $space-x2;
   position: relative;
   @media (min-width: $mq-laptop) {
     border-radius: 16px;
