@@ -1,6 +1,9 @@
 .block-hero {
   padding-top: $space-x8;
-  padding-bottom: $space-x8;
+  padding-bottom: $space-x1;
+  @media (min-width: $mq-laptop) {
+    padding-bottom: $space-x8;
+  }
   .block-content {
     & > * {
       opacity: 0;

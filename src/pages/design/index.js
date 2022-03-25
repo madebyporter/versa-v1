@@ -15,9 +15,9 @@ import imgProjectRHTeaser from "../../images/cases/reactheadless-2021-teaser-2.p
 const IndexPage = () => (
   
   <Layout>
-    <Seo title="Design Engineer creating systems for creative founders." />
+    <Seo title="Design Engineer building systems for creative founders." />
 
-    <Hero heroText="Design Engineer creating systems for creative founders."  />
+    <Hero heroText="Design Engineer building systems for creative founders." heroDesc="I help design digital systems that improves the lives of early-stage founders &amp; their customers." />
 
     {/* <section className="block block-section">
       
@@ -69,8 +69,8 @@ const IndexPage = () => (
               </div>
               <div className="card--content">
                 <h3 className="card--title t-24">Organics Alive Garden</h3>
-                <p className="card--paragraph t-18">Moving an organic cannabis fertilizer brand from Wordpress to Shopify.</p>
-                <Link className="t-18" to="/cases/organicsalive-2019">View Case Study &raquo;</Link>
+                <p className="card--paragraph t-18">Helping a Southern California organic cannabis fertilizer brand improve their digital processes &amp; customer experiences.</p>
+                <Link className="card--link t-18" to="/cases/organicsalive-2019">View Case Study &raquo;</Link>
               </div>
             </div>
             <div className="card card-case-minimal">
@@ -84,8 +84,8 @@ const IndexPage = () => (
               </div>
               <div className="card--content">
                 <h3 className="card--title t-24">Novvum.io</h3>
-                <p className="card--paragraph t-18">Redesigning Novvum's website to position them as a dev agency that helps non-technical teams.</p>
-                <Link className="t-18" to="/cases/novvum-2021">View Case Study &raquo;</Link>
+                <p className="card--paragraph t-18">Helping a remote development agency position their website to attract teams who need technical strategy &amp; execution.</p>
+                <Link className="card--link t-18" to="/cases/novvum-2021">View Case Study &raquo;</Link>
               </div>
             </div>
             <div className="card card-case-minimal">
@@ -99,8 +99,8 @@ const IndexPage = () => (
               </div>
               <div className="card--content">
                 <h3 className="card--title t-24">ReactHeadless.com</h3>
-                <p className="card--paragraph t-18">Building a mini-site for Novvum's React Headless Shopify services.</p>
-                <Link className="t-18" to="/cases/reactheadless-2021">View Case Study &raquo;</Link>
+                <p className="card--paragraph t-18">Helping a remote development agency build a mini-site for a specialized offering that services their e-Commerce clients.</p>
+                <Link className="card--link t-18" to="/cases/reactheadless-2021">View Case Study &raquo;</Link>
               </div>
             </div>
           </div>

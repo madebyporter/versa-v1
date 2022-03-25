@@ -36,13 +36,11 @@ const NavbarLinks = () => {
         <motion.div className="nav-link" variants={item}>
           <Link to="/design/">Design</Link>
         </motion.div>
-
-        <motion.h3 className="nav-section-header" variants={item}>Porter</motion.h3>
-        <motion.div className="nav-link" variants={item}>
-          <Link to="/about/">About</Link>
-        </motion.div>
         <motion.div className="nav-link" variants={item}>
           <Link to="/stack/">Stack</Link>
+        </motion.div>
+        <motion.div className="nav-link" variants={item}>
+          <Link to="/about/">About</Link>
         </motion.div>
    
         <motion.h3 className="nav-section-header" variants={item}>Products</motion.h3>
