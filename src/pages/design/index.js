@@ -70,7 +70,7 @@ const IndexPage = () => (
               <div className="card--content">
                 <h3 className="card--title t-24">Organics Alive Garden</h3>
                 <p className="card--paragraph t-18">Moving an organic cannabis fertilizer brand from Wordpress to Shopify.</p>
-                <Link className="t-18" to="/cases/organicsalive-2019">View Case Study &raquo;</Link>
+                <Link className="card--link t-18" to="/cases/organicsalive-2019">View Case Study &raquo;</Link>
               </div>
             </div>
             <div className="card card-case-minimal">
@@ -85,7 +85,7 @@ const IndexPage = () => (
               <div className="card--content">
                 <h3 className="card--title t-24">Novvum.io</h3>
                 <p className="card--paragraph t-18">Redesigning Novvum's website to position them as a dev agency that helps non-technical teams.</p>
-                <Link className="t-18" to="/cases/novvum-2021">View Case Study &raquo;</Link>
+                <Link className="card--link t-18" to="/cases/novvum-2021">View Case Study &raquo;</Link>
               </div>
             </div>
             <div className="card card-case-minimal">
@@ -100,7 +100,7 @@ const IndexPage = () => (
               <div className="card--content">
                 <h3 className="card--title t-24">ReactHeadless.com</h3>
                 <p className="card--paragraph t-18">Building a mini-site for Novvum's React Headless Shopify services.</p>
-                <Link className="t-18" to="/cases/reactheadless-2021">View Case Study &raquo;</Link>
+                <Link className="card--link t-18" to="/cases/reactheadless-2021">View Case Study &raquo;</Link>
               </div>
             </div>
           </div>

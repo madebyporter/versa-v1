@@ -75,12 +75,18 @@
   width: 240px;
   position: relative;
   @media (min-width: $mq-tablet) {
-    width: 720px;
+    width: 420px;
+  }
+  @media (min-width: $mq-laptop) {
+    width: 660px;
     &:hover {
       .card--image img {
         @include translate(-1%,0);
       }
     }
+  }
+  @media (min-width: $mq-desktop) {
+    width: 720px;
   }
   .card--image {
     background: darken($color-white,1%);
@@ -94,20 +100,24 @@
     top: 0;
     width: 100%;
     z-index: 1;
-    @media (min-width: $mq-tablet) {
+    @media (min-width: $mq-laptop) {
+      justify-content: flex-start;
       background: none;
     }
     img {
-      @include translate(70px,0);
+      @include translate(60px,0);
       @include transition;
       height: 100%;
       width: auto;
-      @media (min-width: $mq-tablet) {
+      @media (min-width: $mq-laptop) {
         bottom: 0;
         position: absolute;
         height: 100%;
         @include translate(0,0);
         width: auto;
+      }
+      @media (min-width: $mq-desktop) {
+        @include translate(0,0);
       }
     }
   }
@@ -117,8 +127,9 @@
     margin: $space-x4 $space-x4 0 $space-x4;
     z-index: 2;
     flex-wrap: wrap;
-    @media (min-width: $mq-tablet) {
-      display: block;
+    
+    @media (min-width: $mq-laptop) {
+      display: flex;
       margin: $space-x4 $space-x4 0 $space-x4;
       width: 50%;
     }
@@ -126,19 +137,39 @@
   .card--tag {
     color: $color-black;
     // width: 100%;
-    @media (min-width: $mq-tablet) {
+    @media (min-width: $mq-laptop) {
       width: auto;
     }
   }
   .card--content {
-    display: none;
-    margin: $space-x4;
-    margin-top: $space-x2;
-    z-index: 2;
+    height: 68%;
+    margin: $space-x1;
+    position: relative;
     width: 100%;
-    @media (min-width: $mq-tablet) {
+    z-index: 2; 
+    @media (min-width: $mq-laptop) {
       display: block;
+      height: auto;
+      margin: $space-x4;
+      margin-top: $space-x2;
       width: 50%;
+    }
+  }
+  .card--title, .card--paragraph {
+    display: none;
+    @media (min-width: $mq-laptop) {
+      display: block;
+    }
+  }
+  .card--link {
+    @include rotate(-90);
+    transform-origin: top left;
+    display: inline-block;
+    position: absolute;
+    @media (min-width: $mq-laptop) {
+      @include rotate(0);
+      display: inline-block;
+      position: relative;
     }
   }
 }
@@ -159,7 +190,7 @@
   padding-left: 2rem;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
-  @media (min-width: $mq-tablet) {
+  @media (min-width: $mq-laptop) {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -171,11 +202,11 @@
 }
 .card-carousel--track {
   display: flex;
-  gap: 0 $space-x2;
+  gap: 0 $space-x4;
   height: 100%;
   padding: 0 $space-x2 0 0;
   position: absolute;
-  @media (min-width: $mq-tablet) {
+  @media (min-width: $mq-laptop) {
     padding: 0 $space-x4 0 0;
     gap: 0 $space-x4;
     height: 100%;
