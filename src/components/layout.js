@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
       }
     },
     hidden: {
-      opacity: 0, y: 0,
+      opacity: 1, y: -1000,
       transition: {
         ease: "easeInOut", duration: 0.7, delay: 0.2
       },
@@ -49,10 +49,7 @@ const Layout = ({ children }) => {
     exit: {
       delay: 0.5, opacity: 1, y: 1000,
       transition: {
-        y: 0, ease: "easeInOut", duration: 0.4, 
-      },
-      transitionEnd: {
-        
+        ease: "easeInOut", duration: 0.4, 
       }
     },
   }
