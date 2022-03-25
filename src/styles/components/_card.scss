@@ -10,6 +10,9 @@
 }
 .card--image {
   background: $color-beige;
+  img {
+    width: 100%;
+  }
 }
 .card--tagset {
   border-bottom: 1px solid $color-beige;
@@ -34,13 +37,21 @@
 .card-case {
   padding: $space-x2;
 
+  @media (min-width: $mq-tablet) {
+    width: 720px;
+  }
+
   .card--image {
     border-radius: 2px;
     height: 200px;
     margin: 0 0 $space-x2;
+    overflow: hidden;
     width: 100%;
     @media (min-width: $mq-tablet) {
-      height: 262px;
+      height: 420px;
+    }
+    img {
+      width: 100%;
     }
   }
   .card--tagset {
@@ -50,6 +61,64 @@
     margin: 0 $space-x1 $space-x1;
   }
 }
+
+.card-case-minimal {
+  align-items: flex-end;
+  align-content: flex-end;
+  background: $color-white;
+  border-radius: 16px;
+  box-shadow: 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: 100%;
+  width: 720px;
+  position: relative;
+  &:hover {
+    .card--image img {
+      @include translate(-1%,0);
+    }
+  }
+  .card--image {
+    background: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    img {
+      bottom: 0;
+      position: absolute;
+      height: 100%;
+      width: auto;
+      @include translate(0,0);
+      @include transition;
+    }
+  }
+  .card--tagset {
+    border-bottom: 1px solid $color-black;
+    margin: $space-x4 $space-x4 0 $space-x4;
+    width: 50%;
+    z-index: 2;
+  }
+  .card--tag {
+    color: $color-black;
+  }
+  .card--content {
+    margin: $space-x4;
+    margin-top: $space-x2;
+    width: 50%;
+    z-index: 2;
+  }
+}
+.card-case-minimal-gray {
+  @extend .card-case-minimal;
+  background: $color-gray;
+  height: 95vh;
+}
+
 
 // Card Carousel
 .card-carousel {
@@ -61,6 +130,7 @@
   scrollbar-width: none;  /* Firefox */
   @media (min-width: $mq-tablet) {
     width: 100%;
+    z-index: 0;
   }
 }
 .card-carousel::-webkit-scrollbar {
@@ -74,11 +144,12 @@
   @media (min-width: $mq-tablet) {
     padding: 0 $space-x4 0 0;
     gap: 0 $space-x4;
+    height: 100%;
   }
 }
 .card-carousel-cases {
   height: 460px;
   @media (min-width: $mq-tablet) {
-    height: 528px;
+    height: 600px;
   }
 }

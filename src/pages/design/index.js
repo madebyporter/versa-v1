@@ -7,7 +7,10 @@ import Hero from "../../components/hero"
 import BlockParagraph from "../../components/blockParagraph"
 import SectionTitle from "../../components/sectionTitle"
 import ContentResumeDesign from "../../components/contentResumeDesign"
-import LibDesignCases from "../../components/libDesignCases"
+
+import imgProjectOATeaser from "../../images/cases/organicsalive-2019-teaser-mobile-3.png"
+import imgProjectNovvumTeaser from "../../images/cases/novvum-2021-teaser-2.png"
+import imgProjectRHTeaser from "../../images/cases/reactheadless-2021-teaser-2.png"
 
 const IndexPage = () => (
   
@@ -16,7 +19,7 @@ const IndexPage = () => (
 
     <Hero heroText="Design Engineer creating systems for creative founders."  />
 
-    <section className="block block-section">
+    {/* <section className="block block-section">
       
       <div className="grid block-content g-m-1-13 g-l-4-12 g-4-12">
         <div className="g-m-1-13 g-l-1-6 g-1-6">
@@ -26,7 +29,7 @@ const IndexPage = () => (
           Design Systems
         </div>
       </div>
-    </section>
+    </section> */}
 
     <section className="block block-section">
       <SectionTitle text="Systems Design" />
@@ -55,8 +58,10 @@ const IndexPage = () => (
 
         <div className="card-carousel card-carousel-cases grid g-m-1-13 g-l-1-13 g-1-13">
           <div className="card-carousel--track g-m-1-13 g-l-4-13 g-4-13">
-            <div className="card card-case">
-              <div className="card--image"></div>
+            <div className="card card-case-minimal">
+              <div className="card--image">
+                <img src={imgProjectOATeaser} alt="Organics Alive Garden" />
+              </div>
               <div className="card--tagset">
                 <span className="card--tag">Case Study</span>
                 <span className="card--tag">Website</span>
@@ -68,8 +73,10 @@ const IndexPage = () => (
                 <Link className="t-18" to="/cases/organicsalive-2019">View Case Study &raquo;</Link>
               </div>
             </div>
-            <div className="card card-case">
-              <div className="card--image"></div>
+            <div className="card card-case-minimal">
+              <div className="card--image">
+                <img src={imgProjectNovvumTeaser} alt="Novvum" />
+              </div>
               <div className="card--tagset">
                 <span className="card--tag">Case Study</span>
                 <span className="card--tag">Website</span>
@@ -81,8 +88,10 @@ const IndexPage = () => (
                 <Link className="t-18" to="/cases/novvum-2021">View Case Study &raquo;</Link>
               </div>
             </div>
-            <div className="card card-case">
-              <div className="card--image"></div>
+            <div className="card card-case-minimal">
+              <div className="card--image">
+                <img src={imgProjectRHTeaser} alt="ReactHeadless" />
+              </div>
               <div className="card--tagset">
                 <span className="card--tag">Case Study</span>
                 <span className="card--tag">Website</span>
@@ -108,7 +117,7 @@ const IndexPage = () => (
       />
     </section>
 
-    <section className="block block-section">
+    {/* <section className="block block-section">
       <SectionTitle text="Design Systems" />
 
       <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
@@ -225,7 +234,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
   </Layout>
 )
 
