@@ -31,6 +31,12 @@ const NavbarLinks = () => {
   return (
     <>
       <motion.div className="nav-section" variants={container} initial="hidden" animate="show">
+
+        <motion.h3 className="nav-section-header" variants={item}>Specialties</motion.h3>
+        <motion.div className="nav-link" variants={item}>
+          <Link to="/design/">Design</Link>
+        </motion.div>
+
         <motion.h3 className="nav-section-header" variants={item}>Porter</motion.h3>
         <motion.div className="nav-link" variants={item}>
           <Link to="/about/">About</Link>
@@ -40,10 +46,9 @@ const NavbarLinks = () => {
         </motion.div>
    
         <motion.h3 className="nav-section-header" variants={item}>Products</motion.h3>
-        <motion.a className="nav-link nav-link-external" href="https://madebyporter.gumroad.com/l/projective" target="_blank" variants={item}>Projective Notion Template</motion.a>
-        <motion.a className="nav-link nav-link-external" href="https://calendly.com/madebyporter/consulting" target="_blank" variants={item}>Freelancer Mentorship</motion.a>
-        <motion.a className="nav-link nav-link-external" href="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank" variants={item}>Music Production Library</motion.a>
-        <motion.a className="nav-link nav-link-external" href="https://www.thinkversa.com" target="_blank" variants={item}>Think Versa</motion.a>
+        <motion.a className="nav-link nav-link-external" href="https://madebyporter.gumroad.com/l/projective" target="_blank" variants={item}>Projective</motion.a>
+        <motion.a className="nav-link nav-link-external" href="https://calendly.com/madebyporter/consulting" target="_blank" variants={item}>Mentorship</motion.a>
+        <motion.a className="nav-link nav-link-external" href="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank" variants={item}>Beats</motion.a>
       </motion.div>
     </>
   )

@@ -1,13 +1,14 @@
 import * as React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
-import List from './list'
+import ListResume from './listResume'
 
 export default function DataResumeJSON() {
   const data = useStaticQuery(graphql`
     query {
       allResumeJson(sort: { fields: [year], order: DESC }) {
         nodes {
+          id
           year
           status
           role
@@ -18,9 +19,9 @@ export default function DataResumeJSON() {
     }
   `)
   return (
-    <List listTitle="Resume" statusGreenTitle="Active" statusYellowTitle="In Spirit" statusRedTitle="Archived">
+    <ListResume listTitle="Resume" statusGreenTitle="Active" statusYellowTitle="In Spirit" statusRedTitle="Archived">
       {data.allResumeJson.nodes.map(data => (
-        <li>
+        <li key={data.id}>
           <ul className="list-item-columns g-align-items-end">
             <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-5 g-1-5 nowrap">
               {data.link ? <Link to={data.link}>{data.project}</Link> : <span>{data.project}</span>}
@@ -31,6 +32,6 @@ export default function DataResumeJSON() {
           </ul>
         </li>
       ))}
-    </List>
+    </ListResume>
   )
 }

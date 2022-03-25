@@ -5,14 +5,15 @@
 @import "./system/_grid.scss";
 @import "./system/_blocks.scss";
 @import "./system/_utility.scss";
+@import "./system/_base.scss";
 
 // Components
-@import "./components/_base.scss";
 @import "./components/_lists.scss";
 @import "./components/_nav.scss";
 @import "./components/_header.scss";
 @import "./components/_footer.scss";
 @import "./components/_hero.scss";
 @import "./components/_slider.scss";
+@import "./components/_card.scss";
 @import "./components/_status.scss";
 @import "./components/_cursor.scss";
