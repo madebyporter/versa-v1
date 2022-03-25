@@ -9,6 +9,7 @@ import SectionTitle from "../../components/sectionTitle"
 import ContentResumeDesign from "../../components/contentResumeDesign"
 
 import imgProjectOATeaser from "../../images/cases/organicsalive-2019-teaser-mobile-3.png"
+import imgProjectHyrecarTeaser from "../../images/cases/hyrecar-2018-teaser.png"
 import imgProjectNovvumTeaser from "../../images/cases/novvum-2021-teaser-2.png"
 import imgProjectRHTeaser from "../../images/cases/reactheadless-2021-teaser-2.png"
 
@@ -58,6 +59,21 @@ const IndexPage = () => (
 
         <div className="card-carousel card-carousel-cases grid g-m-1-13 g-l-1-13 g-1-13">
           <div className="card-carousel--track g-m-1-13 g-l-4-13 g-4-13">
+            <div className="card card-case-minimal">
+              <div className="card--image">
+                <img src={imgProjectHyrecarTeaser} alt="HyreCar" />
+              </div>
+              <div className="card--tagset">
+                <span className="card--tag">Case Study</span>
+                <span className="card--tag">Product</span>
+                <span className="card--tag">Marketplace</span>
+              </div>
+              <div className="card--content">
+                <h3 className="card--title t-24">Hyrecar</h3>
+                <p className="card--paragraph t-18">Helping redesign the experience for a LA-based startup that lets customersr rent a car for rideshare and delivery services.</p>
+                <Link className="card--link t-18" to="/cases/hyrecar-2018">View Case Study &raquo;</Link>
+              </div>
+            </div>
             <div className="card card-case-minimal">
               <div className="card--image">
                 <img src={imgProjectOATeaser} alt="Organics Alive Garden" />

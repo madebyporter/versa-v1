@@ -5,6 +5,7 @@ import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Hero from "../../components/hero"
+import BlockParagraph from "../../components/blockParagraph"
 
 import oahomepage from "../../images/cases/organicsalive-2019-homepage.png"
 import oahomepagemobile from "../../images/cases/organicsalive-2019-homepage-mobile.png"
@@ -132,6 +133,13 @@ const CasePage = () => (
         
         <Link className="t-18" to="https://www.organicsalivegarden.com" target="_blank" rel="noreferrer">View Website</Link>
       </div>
+
+      <BlockParagraph 
+        blockTitle="Ready to improve your website's experience?"
+        blockContent="First contact me by booking time to speak with me. We’ll discuss your plans and figure out whether we'll be able to improve your product together." 
+        blockLinkURL="https://calendly.com/madebyporter/project"
+        blockLinkTitle="Book a Project Chat"
+      />
     </section>
 
     

@@ -49,15 +49,14 @@ main {
 .block-portfolio {
   align-items: center;
   background: $color-white;
-  border-radius: 2px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  border-radius: 16px;
   display: flex;
   justify-content: center;
   margin: 0 0 $space-x2;
   padding: $space-x4 $space-x2;
   position: relative;
   @media (min-width: $mq-laptop) {
-    border-radius: 4px;
+    border-radius: 16px;
     margin: $space-x4;
     padding: $space-x8 $space-x4;
   }
@@ -68,6 +67,12 @@ main {
     @media (min-width: $mq-laptop) {
       // border-radius: 4px;
       width: 62%;
+    }
+  }
+  .block-portfolio-img-large {
+    width: 80%;
+    @media (min-width: $mq-laptop) {
+      width: 100%;
     }
   }
   .block-portfolio-img-caption {
