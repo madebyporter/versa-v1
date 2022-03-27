@@ -38,16 +38,16 @@ const Layout = ({ children }) => {
       }
     },
     hidden: {
-      opacity: 1, y: -1000,
+      opacity: 1, y: -4000,
       transition: {
         ease: "easeInOut", duration: 0.7, delay: 0.2
       },
       transitionEnd: {
-        y: 1000,
+        y: 4000,
       },
     },
     exit: {
-      delay: 0.5, opacity: 1, y: 1000,
+      delay: 0.5, opacity: 1, y: 4000,
       transition: {
         ease: "easeInOut", duration: 0.4, 
       }
