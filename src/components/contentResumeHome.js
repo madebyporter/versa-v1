@@ -27,7 +27,7 @@ export default function DataResumeJSON() {
             </li>
             <li className="t-14 g-m-1-8 g-t-5-10 g-l-6-10 g-6-10">{data.role}</li>
             <li className="t-14 g-m-8-12 g-t-11-12 g-l-11-12 g-11-12">{data.year}</li>
-            <li className="t-14 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center height-100"><span className={`status status-${data.status}`} /></li>
+            <li className="t-14 g-m-12-13 g-t-12-13 g-l-12-13 g-12-13 g-align-items-center height-100 flex flex-align-items-center flex-justify-content-right"><span className={`status status-${data.status}`} /></li>
           </ul>
         </li>
       ))}
