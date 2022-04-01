@@ -57,6 +57,9 @@
   @supports (display: flex) {
     margin-right: 0;
   }
+  @media (min-width: $mq-tv) {
+    gap: $space-x2;
+  }
   span {
     margin-right: $space-x;
     @supports (display: flex) {
@@ -110,6 +113,10 @@
     position: absolute;
     right: 0;
     @include vertical-center;
+    @media (min-width: $mq-tv) {
+      height: 28px;
+      width: 28px;
+    }
   }
 }
 .nav-trigger {

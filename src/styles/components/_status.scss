@@ -4,6 +4,10 @@
   width: 8px;
   height: 8px;
   border-radius: 20px;
+  @media (min-width: $mq-tv) {
+    width: 16px;
+    height: 16px;
+  }
 }
 .status-red {
   background: #F20049;
@@ -19,6 +23,7 @@
   font-weight: $fw-b;
   text-transform: uppercase;
   letter-spacing: 0.07rem;
+  @extend .t-12;
 }
 .status-nav {
   @media (min-width: $mq-tablet) {

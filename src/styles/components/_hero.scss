@@ -20,5 +20,8 @@
     @media (min-width: $mq-desktop) {
       @include font-size(96);
     }
+    @media (min-width: $mq-tv) {
+      @include font-size(192);
+    }
   }
 }

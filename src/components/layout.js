@@ -34,22 +34,22 @@ const Layout = ({ children }) => {
     visible: {
       opacity: 1, y: 0, 
       transition: {
-        ease: "easeInOut", duration: 0.7, delay: 0.2
+        ease: "easeInOut", duration: 1.2, delay: 0.35
       }
     },
     hidden: {
       opacity: 1, y: -4000,
       transition: {
-        ease: "easeInOut", duration: 0.7, delay: 0.2
+        ease: "easeInOut", duration: 1.2, delay: 0.35
       },
       transitionEnd: {
         y: 4000,
       },
     },
     exit: {
-      delay: 0.5, opacity: 1, y: 4000,
+      delay: 0, opacity: 1, y: 3000,
       transition: {
-        ease: "easeInOut", duration: 0.4, 
+        ease: "easeInOut", duration: 1.2, 
       }
     },
   }
@@ -73,7 +73,7 @@ const Layout = ({ children }) => {
             <a href="https://www.soundcloud.com/madebyporter" target="_blank" rel="noreferrer">Soundcloud</a>
           </nav>
         </div>
-        <div className="g-m-1-13 g-t-1-13 g-l-4-13 g-4-13">
+        <div className="g-m-1-13 g-t-1-13 g-l-4-13 g-4-13 footer-content">
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>  

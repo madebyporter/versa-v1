@@ -7,6 +7,9 @@
   @media (min-width: $mq-tablet) {
     width: 480px;
   }
+  @media (min-width: $mq-tv) {
+    width: 600px;
+  }
 }
 .card--image {
   background: $color-beige;
@@ -88,6 +91,9 @@
   @media (min-width: $mq-desktop) {
     width: 720px;
   }
+  @media (min-width: $mq-tv) {
+    width: 1220px;
+  }
   .card--image {
     background: darken($color-white,1%);
     bottom: 0;
@@ -133,10 +139,13 @@
       margin: $space-x4 $space-x4 0 $space-x4;
       width: 50%;
     }
+    @media (min-width: $mq-tv) {
+      width: 60%;
+    }
   }
   .card--tag {
     color: $color-black;
-    // width: 100%;
+    @extend .t-12;
     @media (min-width: $mq-laptop) {
       width: auto;
     }
@@ -153,6 +162,9 @@
       margin: $space-x4;
       margin-top: $space-x2;
       width: 50%;
+    }
+    @media (min-width: $mq-tv) {
+      width: 60%;
     }
   }
   .card--title, .card--paragraph {
@@ -211,10 +223,16 @@
     gap: 0 $space-x4;
     height: 100%;
   }
+  @media (min-width: $mq-tv) {
+    gap: 0 $space-x8;
+  }
 }
 .card-carousel-cases {
   height: 460px;
   @media (min-width: $mq-tablet) {
     height: 600px;
+  }
+  @media (min-width: $mq-tv) {
+    height: 1200px;
   }
 }

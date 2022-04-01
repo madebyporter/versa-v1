@@ -6,8 +6,10 @@
     padding: $space-x4 0;
     margin: 0;
   }
+  .subheader {
+    @extend .t-12;
+  }
 }
 .footer-content {
-  font-weight: $fw-m;
-  margin-bottom: $space-x;
+  @extend .t-12;
 }
