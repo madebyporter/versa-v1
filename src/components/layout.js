@@ -8,7 +8,8 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-// import { Link } from "gatsby"
+import Helmet from "react-helmet"
+import { withPrefix, Link } from "gatsby"
 import Navbar from "./navGlobal"
 
 import { motion } from "framer-motion"
@@ -56,6 +57,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Helmet>
+        <script src={withPrefix('script.js')} type="text/javascript" />
+      </Helmet>
       <motion.div className="site-cover" variants={shadeInit} initial="visible" animate="hidden" exit="visible" />
 
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
