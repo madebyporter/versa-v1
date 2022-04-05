@@ -51,8 +51,9 @@ main {
 
 .block-article {
   @extend .grid;
-  margin: 0 0 $space-x8;
+  margin: 0 0 $space-x2;
   .block-portfolio {
+    margin-top: $space-x8;
     margin-bottom: $space-x1;
   }
 }

@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 
 const Block = ({ blockTitle, blockContent, blockLinkURL, blockLinkTitle, isVisible }) => (
@@ -8,7 +7,7 @@ const Block = ({ blockTitle, blockContent, blockLinkURL, blockLinkTitle, isVisib
     <p className="t-24">
       {blockContent}
     </p>
-    <Link className="t-24" to={blockLinkURL}>{blockLinkTitle}</Link>
+    <a className="t-24" href={blockLinkURL} target="_blank" rel="noreferrer">{blockLinkTitle}</a>
   </div>
 )
 

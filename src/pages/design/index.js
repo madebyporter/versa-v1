@@ -5,6 +5,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Hero from "../../components/hero"
 import BlockParagraph from "../../components/blockParagraph"
+import BlockParagraphExt from "../../components/blockParagraphExt"
 import SectionTitle from "../../components/sectionTitle"
 import ContentResumeDesign from "../../components/contentResumeDesign"
 
@@ -16,30 +17,40 @@ import imgProjectRHTeaser from "../../images/cases/reactheadless-2021-teaser-2.p
 const IndexPage = () => (
   
   <Layout>
-    <Seo title="Design Engineer building systems for creative founders." description="I help design digital systems that improves the lives of early-stage founders &amp; their customers." />
+    <Seo title="Design Engineering for Business Founders, Designers &amp; Developers." description="Designing and engineering systems for people who like to help other people solve problems." />
 
-    <Hero heroText="Design Engineer building systems for creative founders." heroDesc="I help design digital systems that improves the lives of early-stage founders &amp; their customers." />
+    <Hero heroText="Design &amp; Code" heroDesc="Designing and engineering systems for people who like to help other people solve problems." />
 
     <section className="block block-section">
       <SectionTitle text="Design Services" />
 
-      <BlockParagraph 
-        blockTitle="Systems Design"
-        blockContent="You're a Business Founder of a startup or small business with a lack of technical expertise. You're looking to take your system digital with a website or app." 
-        blockLinkURL="/systemsdesign"
-        blockLinkTitle="Learn more about Systems Design"
-      />
+      <article className="block-article g-m-1-13">
+        <BlockParagraph 
+          blockTitle="Systems Design"
+          blockContent="You're a Business Founder of a startup or small business with a lack of technical expertise. You're looking to take your system digital with a website or app." 
+          blockLinkURL="/design/systemsdesign"
+          blockLinkTitle="Learn more about Systems Design"
+        />
+      </article>
+      
+      
+      <article className="block-article g-m-1-13">
+        <BlockParagraph 
+          blockTitle="Design Systems"
+          blockContent="You're a Founding Developer that already has a plan. You're looking for a design framework that can help speed up the building of your website or app." 
+          blockLinkURL="/design/designsystems"
+          blockLinkTitle="Check out some Design Systems"
+        />
+      </article>
+      
+    </section>
 
-      <BlockParagraph 
-        blockTitle="Design Systems"
-        blockContent="You're a Founding Developer that already has a plan. You're looking for a design framework that can help speed up the building of your website or app." 
-        blockLinkURL="/designsystems"
-        blockLinkTitle="Check out some Design Systems"
-      />
+    <section className="block block-section">
+      <SectionTitle text="Design Library" />
 
       <div className="block-content grid g-m-1-13 g-l-1-13 g-1-13">
         <div className="g-m-1-13 g-l-4-13 g-4-13">
-          <h3 className="t-36 block-content-title margin-bottom-small">Case Studies</h3>
+          <h3 className="t-36 block-content-title margin-bottom-small">Latest Design Entries</h3>
         </div>
 
         <div className="card-carousel card-carousel-cases grid g-m-1-13 g-l-1-13 g-1-13">
@@ -108,14 +119,13 @@ const IndexPage = () => (
         </div>
       </div>
 
+    </section>
+
+    <section className="block block-section">
+      <SectionTitle text="Design History" />
+
       <ContentResumeDesign />
 
-      <BlockParagraph 
-        blockTitle="How to Get Started?"
-        blockContent="Ready to improve your digital system? First contact me by booking time to speak with me. We’ll discuss your plans and figure out whether or not this is a good fit for you." 
-        blockLinkURL="https://calendly.com/madebyporter/project"
-        blockLinkTitle="Book a Project Chat"
-      />
     </section>
 
     {/* <section className="block block-section">
