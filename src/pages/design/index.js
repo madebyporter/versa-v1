@@ -20,37 +20,22 @@ const IndexPage = () => (
 
     <Hero heroText="Design Engineer building systems for creative founders." heroDesc="I help design digital systems that improves the lives of early-stage founders &amp; their customers." />
 
-    {/* <section className="block block-section">
-      
-      <div className="grid block-content g-m-1-13 g-l-4-12 g-4-12">
-        <div className="g-m-1-13 g-l-1-6 g-1-6">
-          Systems Design
-        </div>
-        <div className="g-m-1-13 g-l-7-12 g-7-12">
-          Design Systems
-        </div>
-      </div>
-    </section> */}
-
     <section className="block block-section">
-      <SectionTitle text="Systems Design" />
+      <SectionTitle text="Design Services" />
 
-      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
-        <h3 className="t-36 block-content-title">Why you'll need systems design?</h3>
-        <p className="t-36">
-          You're a founder of a startup or small business looking to scale up your proven business model. You want to spend more time growing the business than tinkering in the design &amp; code. 
-        </p>
-        <p className="t-24">
-          Your goal is to find an expert who can scale up your digital system, improve design usability and improve your results. I help founders by auditing your current system, creating a plan and improving the system. 
-        </p>
-        <ul className="list-bordered">
-          <li className="t-24"><strong>Location:</strong> Remote; Slack for Communication.</li>
-          <li className="t-24"><strong>Scheduling:</strong> 4-12 weeks, plus one month of support.</li>
-          <li className="t-24"><strong>Deliverable:</strong> Discovery playbook, new website or app &amp; one month of support.</li>
-          <li className="t-24"><strong>Qualification:</strong> Most effective for companies already making between $100,000 &amp; $500,000 before profit, with a company size of 1-10 &amp; majority of your sales are generated online.</li>
-          <li className="t-24"><strong>Price:</strong> $10,000+, depending on size of project.</li>
-        </ul>
-      </div>
+      <BlockParagraph 
+        blockTitle="Systems Design"
+        blockContent="You're a Business Founder of a startup or small business with a lack of technical expertise. You're looking to take your system digital with a website or app." 
+        blockLinkURL="/systemsdesign"
+        blockLinkTitle="Learn more about Systems Design"
+      />
+
+      <BlockParagraph 
+        blockTitle="Design Systems"
+        blockContent="You're a Founding Developer that already has a plan. You're looking for a design framework that can help speed up the building of your website or app." 
+        blockLinkURL="/designsystems"
+        blockLinkTitle="Check out some Design Systems"
+      />
 
       <div className="block-content grid g-m-1-13 g-l-1-13 g-1-13">
         <div className="g-m-1-13 g-l-4-13 g-4-13">

@@ -34,7 +34,6 @@ main {
     @media (min-width: $mq-tablet) {
       padding: $space-x4 0;
     }
-    // @extend .g-4-12;
     &:last-child {
       padding-bottom: 0;
     }
@@ -45,7 +44,19 @@ main {
       margin: 0;
     }
   }
+  .block-content-title {
+    margin: 0 0 $space-x2 0;
+  }
 }
+
+.block-article {
+  @extend .grid;
+  margin: 0 0 $space-x8;
+  .block-portfolio {
+    margin-bottom: $space-x1;
+  }
+}
+
 .block-portfolio {
   align-items: center;
   background: $color-white;
