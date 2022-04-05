@@ -19,6 +19,20 @@ module.exports = {
     `gatsby-plugin-postcss`,
     `gatsby-plugin-mdx`,
     {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+        {
+          resolve: "gatsby-remark-external-links",
+          options: {
+            target: "_self",
+            rel: "nofollow"
+          }
+        }
+        ]
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
