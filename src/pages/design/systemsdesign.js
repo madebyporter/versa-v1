@@ -38,6 +38,16 @@ const IndexPage = () => (
           <li className="t-24"><strong>Qualification:</strong> Most effective for companies already making between $100,000 &amp; $500,000 before profit, with a company size of 1-10 &amp; majority of your sales are generated online.</li>
           <li className="t-24"><strong>Price:</strong> $10,000+, depending on size of project.</li>
         </ul>
+
+        <div className="cta-bordered">
+          <BlockParagraph 
+            blockTitle="How to Get Started?"
+            blockContent="Ready to improve your digital system? First contact me by booking time to speak with me. We’ll discuss your plans and figure out whether or not this is a good fit for you." 
+            blockLinkURL="https://calendly.com/madebyporter/project"
+            blockLinkTitle="Book a Project Chat"
+          />
+        </div>
+        
       </div>
 
       <div className="block-content grid g-m-1-13 g-l-1-13 g-1-13">
@@ -111,12 +121,41 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <BlockParagraph 
-        blockTitle="How to Get Started?"
-        blockContent="Ready to improve your digital system? First contact me by booking time to speak with me. We’ll discuss your plans and figure out whether or not this is a good fit for you." 
-        blockLinkURL="https://calendly.com/madebyporter/project"
-        blockLinkTitle="Book a Project Chat"
-      />
+      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
+        <h3 className="t-36 block-content-title">Frequently Asked Questions</h3>
+        <ul className="list-bordered">
+          <li className="t-18">
+            <strong>How do I know we're a good fit?</strong><br />
+            Here's some questions for you. Could we just clone one of my past projects for your project? Does the design style you see within my past projects work for you? Are you pulling in more than $100,000 year in revenue or have more than $100,000 in funding? Are most of your touchpoints online? If you answer yes to most of these questions, then we'll be a good fit!
+          </li>
+          <li className="t-18">
+            <strong>I already know what I want and just need you to just design.</strong><br />
+            The service I offer are for Founders who need to pass on the design thinking responsibilities so the Founder can focus on business, marketing or engineering. If you're looking for a designer that can come in to work on an existing solution or plan, I can refer you to a freelance designer who can help you!
+          </li>
+          <li className="t-18">
+            <strong>I would like to see more visual work. Where can I find more visuals?</strong><br />
+            If you're looking for more visuals for a specific project, let me know <a href="mailto:general@madebyporter.com">here</a>. I can add more screens to a certain case study or show you screens within Figma on a video call!
+          </li>
+          <li className="t-18">
+            <strong>What happens on this call with you?</strong><br />
+            We'll talk about your current problems with your app. Is your editing process cumbersome? Are customers complaining about user experience issues? These are the things we will talk about.
+          </li>
+          <li className="t-18">
+            <strong>How long is the average project?</strong><br />
+            Most projects take about 1-3 months for websites and 3-6 months for apps. 
+          </li>
+          <li className="t-18">
+            <strong>Can you work in our office?</strong><br />
+            Most of the time I work with clients remote. If we're in the same city, I'll make exceptions to have very important meetings in person. If I need to travel far, then the client is responsible for travel fees, which will be included in the budget or expensed. 
+          </li>
+          <li className="t-18">
+            <strong>How will we communicate during projects?</strong><br />
+            Depends on your needs. I can communicate either through email, phone, Zoom, Google Hangouts, Slack, etc.
+          </li>
+        </ul>
+      </div>
+
+      
     </section>
   </Layout>
 )

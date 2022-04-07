@@ -4,7 +4,7 @@
   .cursor {
     width: 16px;
     height: 16px;
-    background: $color-black;
+    background: $color-gray;
     opacity: 0.8;
     border-radius: 100%;
     position: fixed;
@@ -27,6 +27,7 @@
     transform: translate(-50%, -50%) scale(2);
   }
   .c--hover {
+    background: $color-red;
     opacity: 0.9;
     transform: translate(-50%, -50%) scale(2);
   }

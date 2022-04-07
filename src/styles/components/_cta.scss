@@ -1,0 +1,42 @@
+.cta-bordered {
+  border: 1px solid $color-black;
+  border-radius: 16px;
+  margin: $space-x8 0 $space-x4;
+  padding: $space-x4;
+  @include transition;
+  @media (min-width: $mq-laptop) {
+    padding: $space-x8;
+  }
+
+  .block-content-title {
+    @include transition($delay: 800ms);
+  }
+  .block-content-paragraph {
+    @include transition($delay: 700ms);
+  }
+  .block-content-link {
+    @include transition($delay: 600ms);
+  }
+
+  &:hover {
+    background: $color-black;
+    .block-content-title {
+      color: $color-beige;
+      @include transition($delay: 200ms);
+    }
+    .block-content-paragraph {
+      color: $color-beige;
+      @include transition($delay: 300ms);
+    }
+    .block-content-link {
+      color: $color-red;
+      @include transition($delay: 400ms);
+      &:hover {
+        color: lighten($color-red,10%);
+      }
+    }
+  }
+  .block-content {
+    padding: 0;
+  }
+}
