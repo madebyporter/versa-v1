@@ -8,9 +8,9 @@ const parentAni = {
     transition: {
       when: "beforeChildren",
       staggerChildren: 0.5,
-      duration: 1,
+      duration: 0.5,
       ease: "easeOut",
-      delay: 1
+      delay: 0.5
     },
   },
   hidden: {

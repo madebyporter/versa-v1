@@ -14,7 +14,7 @@ const parentAni = {
       staggerChildren: 0,
       duration: 1,
       ease: "easeOut",
-      delay: 1
+      delay: 0.2
     },
   },
   hidden: {
@@ -35,7 +35,7 @@ const Header = ({ siteTitle, isVisible }) => {
 
   return (
     <>
-      <motion.header className="header g-align-items-center" initial="hidden" animate="visible" viewport={{ once: true }} variants={parentAni} transition={{delay: 1}}>
+      <motion.header className="header g-align-items-center" initial="hidden" animate="visible" viewport={{ once: true }} variants={parentAni} transition={{delay: 0.35}}>
         <motion.h1 className="header-logo g-m-1-3 g-t-1-2" variants={childAni}>
           <Link to="/"><Logo /></Link>
         </motion.h1>

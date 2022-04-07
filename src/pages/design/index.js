@@ -27,21 +27,21 @@ const IndexPage = () => (
       <article className="block-article g-m-1-13">
         <BlockParagraph 
           blockTitle="Systems Design"
-          blockContent="You're a Business Founder of a startup or small business with a lack of technical expertise. You're looking to take your system digital with a website or app." 
+          blockContent="You're a Business Founder of a startup or small business with a lack of technical expertise. You're looking to take your system digital with a website or app. Starting at $10,000 for UI/UX design, design consulting &amp; software engineering." 
           blockLinkURL="/design/systemsdesign"
           blockLinkTitle="Learn more about Systems Design"
         />
       </article>
       
       
-      <article className="block-article g-m-1-13">
+      {/* <article className="block-article g-m-1-13">
         <BlockParagraph 
           blockTitle="Design Systems"
           blockContent="You're a Founding Developer that already has a plan. You're looking for a design framework that can help speed up the building of your website or app." 
           blockLinkURL="/design/designsystems"
           blockLinkTitle="Check out some Design Systems"
         />
-      </article>
+      </article> */}
       
     </section>
 
