@@ -38,16 +38,30 @@ const IndexPage = () => (
           <li className="t-24"><strong>Qualification:</strong> Most effective for companies already making between $100,000 &amp; $500,000 before profit, with a company size of 1-10 &amp; majority of your sales are generated online.</li>
           <li className="t-24"><strong>Price:</strong> $10,000+, depending on size of project.</li>
         </ul>
+        
+      </div>
 
+      <div className="block-content g-m-1-13 g-l-4-12 g-4-10">
+        <h3 className="t-36 block-content-title">Project Process</h3>
+        <ul className="list-bordered">
+          <li className="t-18"><strong>Kickoff:</strong> We'll meet for the first time to establish communication channels, introduce team members &amp; talk about why we're solving this problem.</li>
+          <li className="t-18"><strong>Discovery:</strong> We'll meet to understand your problem &amp; your goals. We'll create a plan by performing design audits, user interviews, competitive analysis, feature priority graphs, user flows or lo-fi wireframes. This plan will also include goals, roadmap, milestones, team &amp; budget.</li>
+          <li className="t-18"><strong>Design:</strong> We'll work to improve the user experience &amp; system by designing hi-fi wireframes, prototypes, visual designs or design systems. Designs are created in Figma, where you'll be able to follow along in the process &amp; leave feedback.</li>
+          <li className="t-18"><strong>Develop:</strong> We'll develop the design in the chosen tech stack to setup or improve the functionality of your product. This include setting up the environment; setting up back-end infrastructure; developing the front-end pages and components; and running test to squash those nasty bugs.</li>
+          <li className="t-18"><strong>Ship &amp; Iterate:</strong> We'll ship the product by launching your website or pushing your product to the app store. Post launch, we'll review analytics, heatmaps &amp; sessions to find out if we're hitting our metrics. Then we'll just loop back to the top of this list and solve the next problem.</li>
+        </ul>
+        
+      </div>
+
+      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
         <div className="cta-bordered">
           <BlockParagraph 
-            blockTitle="How to Get Started?"
-            blockContent="Ready to improve your digital system? First contact me by booking time to speak with me. We’ll discuss your plans and figure out whether or not this is a good fit for you." 
+            blockTitle="Ready to Get Started?"
+            blockContent="Need to improve your digital system? First contact me by booking time to speak with me. We’ll discuss your plans and figure out whether or not this is a good fit for you." 
             blockLinkURL="https://calendly.com/madebyporter/project"
             blockLinkTitle="Book a Project Chat"
           />
         </div>
-        
       </div>
 
       <div className="block-content grid g-m-1-13 g-l-1-13 g-1-13">
@@ -122,8 +136,24 @@ const IndexPage = () => (
       </div>
 
       <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
+        <h3 className="t-36 block-content-title">Testimonials</h3>
+        <ul className="list-bordered list-spacing-comfy">
+          <li className="t-24">
+            <strong>Organics Alive</strong><br />
+            "It runs smoothly. We do about 250k with zero advertising!"<br />
+            <em className="t-14">- Todd Salemi, Founder &amp; President of Organics Alive</em>
+          </li>
+          <li className="t-24">
+            <strong>Novvum.io &amp; ReactHeadless.com</strong><br />
+            "If we’re doing an internal project, I measure success by checking whether or not I like their designs. If it’s for one of our end clients, I check whether or not the customer likes their outputs. <br/><br />So far, the quality of Made by Porter’s work is perfect. On top of that, our website — which they’ve helped develop — has a 70% conversion rate. "<br />
+            <em className="t-14">- Matt Zimmer, CEO of Novvum</em>
+          </li>
+        </ul>
+      </div>
+
+      <div className="block-content g-m-1-13 g-l-4-12 g-4-10">
         <h3 className="t-36 block-content-title">Frequently Asked Questions</h3>
-        <ul className="list-bordered">
+        <ul className="list-bordered list-spacing-comfy">
           <li className="t-18">
             <strong>How do I know we're a good fit?</strong><br />
             Here's some questions for you. Could we just clone one of my past projects for your project? Does the design style you see within my past projects work for you? Are you pulling in more than $100,000 year in revenue or have more than $100,000 in funding? Are most of your touchpoints online? If you answer yes to most of these questions, then we'll be a good fit!
@@ -155,6 +185,49 @@ const IndexPage = () => (
         </ul>
       </div>
 
+      <div className="block-content g-m-1-13 g-l-4-12 g-4-10">
+        <h3 className="t-36 block-content-title">Why work with me?</h3>
+        <p className="t-24">
+          I'm Chris Porter, a product designer &amp; engineer. I've started learning to design &amp; code 22 years ago, during the Web1 days when Geocities was king. 
+        </p>
+        
+        <p className="t-18">
+          Obtained my first freelance clients 18 years ago, designing a website for a jewelry company and designing a website for my high school's Commercial Arts program. During my time in college 14 years ago, I worked at a <a href="https://www.buzzhoney.com" target="_blank" rel="noreferrer">Pittsburgh marketing agency</a> designing websites for companies like General Electric, University of Pittsburgh Medical Center, Dick's Sporting Goods &amp; Giant Eagle.
+        </p>
+
+        <p className="t-18">
+          These days, I enjoy helping new &amp; trending brands improve their digital systems, so that their customers have a smoother experience. Improving systems so the people that work at their brands can do their jobs quickly.</p>
+        <p className="t-18">
+          I've helped improve the systems for many upcoming &amp; now established brands such as Organics Alive, Hyrecar, Novvum &amp; Silicon Beach Talent. My mission in life is to make life simpler, while bringing down the costs to produce that simplicity.
+        </p>
+        
+      </div>
+      
+      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
+        <h3 className="t-36 block-content-title">Values</h3>
+        <ul className="list-bordered">
+          <li className="t-36 values-copy text-right">
+            Make <span className="values-copy-reg">Things Simple</span><span className="values-copy-hover">Simple Things</span>
+          </li>
+          <li className="t-36 values-copy">
+            Make <span className="values-copy-reg">Things Useful</span><span className="values-copy-hover">Useful Things</span>
+          </li>
+          <li className="t-36 values-copy">
+            Make <span className="values-copy-reg">Things Impactful</span><span className="values-copy-hover">Impactful Things</span>
+          </li>
+        </ul>
+      </div>
+
+      <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
+        <div className="cta-bordered">
+          <BlockParagraph 
+            blockTitle="You've scroll to the bottom of the page"
+            blockContent="I usually take on two projects per quarter. So if you want to get this project started, please schedule a 30 minute chat with me here." 
+            blockLinkURL="https://calendly.com/madebyporter/project"
+            blockLinkTitle="Book a Project Chat"
+          />
+        </div>
+      </div>
       
     </section>
   </Layout>

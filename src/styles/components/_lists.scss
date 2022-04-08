@@ -12,6 +12,27 @@
       border-bottom: 0;
     }
   }
+
+  &.list-spacing-tight > li {
+    padding: $space-x 0;
+    @media (min-width: $mq-laptop) {
+      padding: $space-x2 0;
+    }
+  }
+
+  &.list-spacing-normal > li {
+    padding: $space-x2 0;
+    @media (min-width: $mq-tv) {
+      padding: $space-x4 0;
+    }
+  }
+
+  &.list-spacing-comfy > li {
+    padding: $space-x2 0;
+    @media (min-width: $mq-laptop) {
+      padding: $space-x4 0;
+    }
+  }
 }
 
 .list-item-columns {

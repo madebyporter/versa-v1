@@ -66,7 +66,7 @@ const IndexPage = () => (
               </div>
               <div className="card--content">
                 <h3 className="card--title t-24">Hyrecar</h3>
-                <p className="card--paragraph t-18">Helping redesign the experience for a LA-based startup that lets customersr rent a car for rideshare and delivery services.</p>
+                <p className="card--paragraph t-18">Helping redesign the experience for a LA-based startup that lets customers rent a car for rideshare and delivery services.</p>
                 <Link className="card--link t-18" to="/cases/hyrecar-2018">View Case Study &raquo;</Link>
               </div>
             </div>
