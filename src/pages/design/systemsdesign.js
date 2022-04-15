@@ -16,9 +16,9 @@ import imgProjectRHTeaser from "../../images/cases/reactheadless-2021-teaser-2.p
 const IndexPage = () => (
   
   <Layout>
-    <Seo title="Design Engineer building systems for creative founders." description="I help design digital systems that improves the lives of early-stage founders &amp; their customers." />
+    <Seo title="Efficient digital systems for future looking brands." description="I design digital systems that improves business processes, user experience &amp; business goals." />
 
-    <Hero heroText="Design Engineer building systems for creative founders." heroDesc="I help design digital systems that improves the lives of early-stage founders &amp; their customers." />
+    <Hero heroText="Efficient digital systems for future looking brands." heroDesc="I design digital systems that improves business processes, user experience &amp; business goals." />
 
     <section className="block block-section">
       <SectionTitle text="Systems Design" />
@@ -26,10 +26,10 @@ const IndexPage = () => (
       <div className="block-content g-m-1-13 g-l-4-12 g-4-12">
         <h3 className="t-36 block-content-title">Why you'll need systems design?</h3>
         <p className="t-36">
-          You're a founder of a startup or small business looking to scale up your proven business model. You want to spend more time growing the business than tinkering in the design &amp; code. 
+          You're a founder of a startup or small business looking to improve your website's conversation rates, your app's user experience or your company's business processes. 
         </p>
         <p className="t-24">
-          Your goal is to find an expert who can scale up your digital system, improve design usability and improve your results. I help founders by auditing your current system, creating a plan and improving the system. 
+          I help founders by auditing their current system, creating a plan, design &amp; build the solution. I look to help you cut costs while providing a high quality product. What will you expect while with me? Here's some lists to digest:
         </p>
         <ul className="list-bordered">
           <li className="t-24"><strong>Location:</strong> Remote; Slack for Communication.</li>
