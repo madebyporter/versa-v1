@@ -16,9 +16,9 @@ import imgProjectRHTeaser from "../../images/cases/reactheadless-2021-teaser-2.p
 const IndexPage = () => (
   
   <Layout>
-    <Seo title="Efficient digital systems for future looking brands." description="I design digital systems that improves business processes, user experience &amp; business goals." />
+    <Seo title="Systems Design" description="I design digital systems that improves business processes, user experience &amp; business goals." />
 
-    <Hero heroText="Efficient digital systems for future looking brands." heroDesc="I design digital systems that improves business processes, user experience &amp; business goals." />
+    <Hero heroText="Designing digital systems for future forward brands." heroDesc="I help growing startups improve their design with data driven design choices. The goal is to help founders spend time on what matters most." />
 
     <section className="block block-section">
       <SectionTitle text="Systems Design" />

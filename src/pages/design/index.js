@@ -17,9 +17,9 @@ import imgProjectRHTeaser from "../../images/cases/reactheadless-2021-teaser-2.p
 const IndexPage = () => (
   
   <Layout>
-    <Seo title="Design Engineer" description="Design Engineer specializing in design &amp; code for the web." />
+    <Seo title="Chris Porter, Design Engineer" description="Design Engineer specializing in design &amp; code for the web." />
 
-    <Hero heroText="Versatilist Design Engineer of 17 years, challenging the status quo." heroDesc="I specialize in design &amp; coding design for the web and technical devices. I love high impact typography, white space &amp; minimalism. I love learning about the future of the web, design &amp; software engineering." />
+    <Hero heroText="Design Engineer" heroDesc="I'm a Designer &amp; Developer of 17 years, solving problems for startups &amp; small businesses. I love high impact typography, white space &amp; minimalism." />
 
     <section className="block block-section">
       <SectionTitle text="Design Services" />
