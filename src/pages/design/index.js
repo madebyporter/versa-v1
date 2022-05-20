@@ -27,7 +27,7 @@ const IndexPage = () => (
       <article className="block-article g-m-1-13">
         <BlockParagraph 
           blockTitle="Systems Design"
-          blockContent="You're a Business Founder of a startup or small business with a lack of technical expertise. You're looking to take your system digital with a website or app. Starting at $10,000 for UI/UX design, design consulting &amp; software engineering." 
+          blockContent="You're a Founder of a startup or small business with an outdated process. You're looking for someone to make your process more efficient. Starting at $10,000/mo, I'll put a team together to help improve your process using software design, web design and software engineering." 
           blockLinkURL="/design/systemsdesign"
           blockLinkTitle="Learn more about Systems Design"
         />
