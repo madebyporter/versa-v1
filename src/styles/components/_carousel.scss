@@ -1,0 +1,59 @@
+// Carousel
+
+// Card Carousel
+.carousel {
+  min-height: 330px;
+  overflow-x: scroll;
+  position: relative;
+  width: 100vw;
+  margin-left: -2rem;
+  padding-left: 2rem;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  @media (min-width: $mq-laptop) {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 0;
+  }
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel--track {
+  display: flex;
+  gap: 0 $space-x4;
+  height: 100%;
+  padding: 0 $space-x2 0 0;
+  position: absolute;
+  @media (min-width: $mq-laptop) {
+    padding: 0 $space-x4 0 0;
+    gap: 0 $space-x4;
+    height: 100%;
+  }
+  @media (min-width: $mq-tv) {
+    gap: 0 $space-x8;
+  }
+}
+.carousel-cases {
+  height: 460px;
+  @media (min-width: $mq-tablet) {
+    height: 600px;
+  }
+  @media (min-width: $mq-tv) {
+    height: 1200px;
+  }
+}
+
+.carousel-musicAlbums {
+  height: 240px + 40px;
+  @media (min-width: $mq-tablet) {
+    height: 320px + 80px;
+  }
+  .carousel--track {
+    gap: 0 $space-x2;
+    @media (min-width: $mq-tablet) {
+      gap: 0 $space-x4;
+    }
+  }
+}

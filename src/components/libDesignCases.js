@@ -23,8 +23,8 @@ export default function LibDesignCases() {
     }
   `)
   return (
-    <div className="card-carousel card-carousel-cases grid g-m-1-13 g-l-1-13 g-1-13">
-      <div className="card-carousel--track g-m-1-13 g-l-4-13 g-4-13">
+    <div className="carousel carousel-cases grid g-m-1-13 g-l-1-13 g-1-13">
+      <div className="carousel--track g-m-1-13 g-l-4-13 g-4-13">
         {
           data.allMdx.nodes.map((node) => (
             <div className="card card-case" key={node.id}>

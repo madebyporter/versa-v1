@@ -38,8 +38,8 @@ const IndexPage = () => (
           <h3 className="t-36 block-content-title margin-bottom-small">Templates for Commercial Use</h3>
         </div>
 
-        <div className="card-carousel card-carousel-cases grid g-m-1-13 g-l-1-13 g-1-13">
-          <div className="card-carousel--track g-m-1-13 g-l-4-13 g-4-13">
+        <div className="carousel carousel-cases grid g-m-1-13 g-l-1-13 g-1-13">
+          <div className="carousel--track g-m-1-13 g-l-4-13 g-4-13">
             <div className="card card-case-minimal">
               <div className="card--image">
                 <img src={imgProjectHyrecarTeaser} alt="HyreCar" />

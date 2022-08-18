@@ -35,6 +35,35 @@
 .card--title {
   margin: 0 0 $space-x1;
 }
+.card--image {
+  border-radius: 2px;
+  display: flex;
+  height: 200px;
+  margin: 0 0 $space-x2;
+  overflow: hidden;
+  width: 100%;
+  @media (min-width: $mq-tablet) {
+    height: 420px;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+// Card Music Albums
+.card-musicAlbums {
+  background: none;
+  height: 240px;
+  width: 240px;
+  @media (min-width: $mq-tablet) {
+    height: 320px;
+    width: 320px;
+  }
+  .card--image {
+    height: 100%;
+    width: 100%;
+  }
+}
 
 // Card Case
 .card-case {
@@ -42,20 +71,6 @@
 
   @media (min-width: $mq-tablet) {
     width: 720px;
-  }
-
-  .card--image {
-    border-radius: 2px;
-    height: 200px;
-    margin: 0 0 $space-x2;
-    overflow: hidden;
-    width: 100%;
-    @media (min-width: $mq-tablet) {
-      height: 420px;
-    }
-    img {
-      width: 100%;
-    }
   }
   .card--tagset {
     margin: 0 $space-x1 $space-x1;
@@ -189,50 +204,4 @@
   @extend .card-case-minimal;
   background: $color-gray;
   height: 95vh;
-}
-
-
-// Card Carousel
-.card-carousel {
-  min-height: 330px;
-  overflow-x: scroll;
-  position: relative;
-  width: 100vw;
-  margin-left: -2rem;
-  padding-left: 2rem;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-  @media (min-width: $mq-laptop) {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    z-index: 0;
-  }
-}
-.card-carousel::-webkit-scrollbar {
-  display: none;
-}
-.card-carousel--track {
-  display: flex;
-  gap: 0 $space-x4;
-  height: 100%;
-  padding: 0 $space-x2 0 0;
-  position: absolute;
-  @media (min-width: $mq-laptop) {
-    padding: 0 $space-x4 0 0;
-    gap: 0 $space-x4;
-    height: 100%;
-  }
-  @media (min-width: $mq-tv) {
-    gap: 0 $space-x8;
-  }
-}
-.card-carousel-cases {
-  height: 460px;
-  @media (min-width: $mq-tablet) {
-    height: 600px;
-  }
-  @media (min-width: $mq-tv) {
-    height: 1200px;
-  }
 }

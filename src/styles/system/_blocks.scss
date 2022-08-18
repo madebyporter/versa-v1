@@ -17,15 +17,13 @@ main {
   .block-header {
     border-bottom: 1px solid $color-black;
     @extend .grid;
-    padding-bottom: $space-x4;
-    // margin-bottom: $space-x2;
+    padding-bottom: $space-x2;
     @media (min-width: $mq-tablet) {
-      padding-bottom: $space-x8;
-      // margin-bottom: $space-x4;
+      padding-bottom: $space-x4;
     }
     // Header Content
     .block-header-title {
-      @extend .t-24;
+      @extend .t-48;
       margin: 0;
     }
   }
