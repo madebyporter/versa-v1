@@ -34,10 +34,10 @@ const IndexPage = () => (
       <SectionTitle text="Design Engineer" />
 
       <BlockParagraphExt 
-        blockTitle="Systems Design"
-        blockContent="You're a Founder of a startup or small business with an outdated process. You're looking for someone to make your process more efficient. Starting at $10,000/mo, I'll put a team together to help improve your process using software design, web design and software engineering." 
-        blockLinkURL="/design/systemsdesign"
-        blockLinkTitle="Learn more about Systems Design"
+        blockTitle="Designing for Sustainability"
+        blockContent="I've been designing and coding for the web since 1999. By 2017, instead of designing for the sake of design, I realized that sustainability for businesses, humans, and Earth is something that I became passionate about. This started with decentralizing my work and living, being able to work and live where I want. I love to design systems that are efficient, minimal and can scale for myself and for others!" 
+        blockLinkURL="/design"
+        blockLinkTitle="More Design Engineering"
       />
 
       <div className="block-content grid g-m-1-13 g-l-1-13 g-1-13">
