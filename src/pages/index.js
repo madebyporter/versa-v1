@@ -6,8 +6,11 @@ import Seo from "../components/seo"
 import Hero from "../components/hero"
 // import BlockParagraph from "../components/blockParagraph"
 import BlockParagraphExt from "../components/blockParagraphExt"
-// import BlockImage from "../components/blockImage"
+import BlockImage from "../components/blockImage"
 import SectionTitle from "../components/sectionTitle"
+
+import imgProjectAuditApp from "../images/mbp-projectauditsystem-gumroad--app.png"
+import imgProjectAuditBG from "../images/mbp-projectauditsystem-gumroad--bg.jpg"
 
 import imgProjectOATeaser from "../images/cases/organicsalive-2019-teaser-mobile-3.png"
 import imgProjectHyrecarTeaser from "../images/cases/hyrecar-2018-teaser.png"
@@ -208,12 +211,21 @@ const IndexPage = () => (
 
     <section className="block block-section">
       <SectionTitle text="Entrepreneur" />
+      
+      <BlockImage
+          blockImageSrc={imgProjectAuditApp}
+          blockImageAlt="The Project Audit System, a Notion template."
+          blockImageCaption="Background Photo by"
+          blockImageLink="https://unsplash.com/photos/MpTdvXlAsVE"
+          blockImageLinkText="Martin Adams"
+          blockImageBG={imgProjectAuditBG}
+        />
 
       <BlockParagraphExt 
-        blockTitle="Product Audit System"
-        blockContent="Every quarter, I review all the projects I've worked on and add them to my product audit system. I add in the data and it spits out how cool the project is based on my tastes. You can download my Notion template for it here:" 
+        blockTitle="Project Audit System"
+        blockContent="Every quarter, I review all the projects I've worked on and add them to my project audit system. I add in the data and it spits out how cool the project is based on my tastes. You can download my Notion template for it here:" 
         blockLinkURL="https://madebyporter.notion.site/Use-my-Project-Audit-System-550288c2c81b4628a806a0081e8bd601"
-        blockLinkTitle="Download the Product Audit System"
+        blockLinkTitle="Download the Project Audit System"
       /> 
     </section>
 
