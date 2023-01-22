@@ -36,8 +36,11 @@ const NavbarLinks = () => {
         <motion.div className="nav-link" variants={item}>
           <a href="/design/">Design Engineering</a>
         </motion.div>
-        <motion.div className="nav-link" variants={item}>
-          <a className="nav-link nav-link-external" href="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank">Music Production</a>
+        <motion.div className="nav-link nav-link-external" variants={item}>
+          <a href="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank">Music Production</a>
+        </motion.div>
+        <motion.div className="nav-link nav-link-external" variants={item}>
+          <a href="https://madebyporter.notion.site/Use-my-Project-Audit-System-550288c2c81b4628a806a0081e8bd601" target="_blank">Project Audit System</a>
         </motion.div>
    
         <motion.h3 className="nav-section-header" variants={item}>Person</motion.h3>
