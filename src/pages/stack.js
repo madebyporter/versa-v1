@@ -22,23 +22,9 @@ const IndexPage = () => (
         <ul className="list-bordered resume-list">
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.figma.com" target="_blank">Adobe Lightroom</Link></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.adobe.com/products/photoshop-lightroom.html" target="_blank">Adobe Lightroom</Link></li>
               <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Photo editing.</li>
               <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Photography</li>
-            </ul>
-          </li>
-          <li>
-            <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.figma.com" target="_blank">Affinity Designer</Link></li>
-              <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Vector based design.</li>
-              <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Graphic Design</li>
-            </ul>
-          </li>
-          <li>
-            <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.figma.com" target="_blank">Affinity Photo</Link></li>
-              <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Raster based design.</li>
-              <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Graphic Design</li>
             </ul>
           </li>
           <li>
@@ -231,7 +217,7 @@ const IndexPage = () => (
         <ul className="list-bordered resume-list">
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.ableton.com" target="_blank">Ableton Live 11</Link></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.ableton.com/en/live/" target="_blank">Ableton Live 11</Link></li>
               <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Compose music.</li>
               <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">DAW</li>
             </ul>
