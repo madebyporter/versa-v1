@@ -34,22 +34,22 @@ const NavbarLinks = () => {
 
         <motion.h3 className="nav-section-header" variants={item}>Disciplines</motion.h3>
         <motion.div className="nav-link" variants={item}>
-          <a href="/design/">Design Engineering</a>
+          <Link to="/design/">Design Engineering</Link>
         </motion.div>
         <motion.div className="nav-link nav-link-external" variants={item}>
-          <a href="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank">Music Production</a>
+          <a href="https://www.thebeatboxclub.com/producers/madebyporter" target="_blank" rel="noreferrer">Music Production</a>
         </motion.div>
         <motion.div className="nav-link nav-link-external" variants={item}>
-          <a href="https://madebyporter.notion.site/Use-my-Project-Audit-System-550288c2c81b4628a806a0081e8bd601" target="_blank">Project Audit System</a>
+          <a href="https://madebyporter.notion.site/Use-my-Project-Audit-System-550288c2c81b4628a806a0081e8bd601" target="_blank" rel="noreferrer">Project Audit System</a>
         </motion.div>
    
         <motion.h3 className="nav-section-header" variants={item}>Person</motion.h3>
         
         <motion.div className="nav-link" variants={item}>
-          <a href="/stack/">Stack</a>
+          <Link to="/stack/">Stack</Link>
         </motion.div>
         <motion.div className="nav-link" variants={item}>
-          <a href="/about/">About</a>
+          <Link to="/about/">About</Link>
         </motion.div>
 
       </motion.div>

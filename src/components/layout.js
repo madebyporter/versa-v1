@@ -9,7 +9,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Helmet from "react-helmet"
-import { withPrefix, Link } from "gatsby"
+import { withPrefix } from "gatsby"
 import Navbar from "./navGlobal"
 
 import { motion } from "framer-motion"

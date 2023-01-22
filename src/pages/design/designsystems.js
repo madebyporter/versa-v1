@@ -4,14 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Hero from "../../components/hero"
-import BlockParagraph from "../../components/blockParagraph"
 import SectionTitle from "../../components/sectionTitle"
-import ContentResumeDesign from "../../components/contentResumeDesign"
-
-import imgProjectOATeaser from "../../images/cases/organicsalive-2019-teaser-mobile-3.png"
 import imgProjectHyrecarTeaser from "../../images/cases/hyrecar-2018-teaser.png"
-import imgProjectNovvumTeaser from "../../images/cases/novvum-2021-teaser-2.png"
-import imgProjectRHTeaser from "../../images/cases/reactheadless-2021-teaser-2.png"
 
 const IndexPage = () => (
   

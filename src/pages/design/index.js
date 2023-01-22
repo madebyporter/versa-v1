@@ -5,7 +5,6 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Hero from "../../components/hero"
 import BlockParagraph from "../../components/blockParagraph"
-import BlockParagraphExt from "../../components/blockParagraphExt"
 import SectionTitle from "../../components/sectionTitle"
 import ContentResumeDesign from "../../components/contentResumeDesign"
 

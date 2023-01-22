@@ -6,7 +6,6 @@ import Seo from "../../components/seo"
 import Hero from "../../components/hero"
 import BlockParagraph from "../../components/blockParagraph"
 import SectionTitle from "../../components/sectionTitle"
-import ContentResumeDesign from "../../components/contentResumeDesign"
 
 import imgProjectOATeaser from "../../images/cases/organicsalive-2019-teaser-mobile-3.png"
 import imgProjectHyrecarTeaser from "../../images/cases/hyrecar-2018-teaser.png"
