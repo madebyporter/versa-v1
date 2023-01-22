@@ -95,6 +95,13 @@ const IndexPage = () => (
         <ul className="list-bordered resume-list">
           <li>
             <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.contentful.com/" target="_blank">Contentful</Link></li>
+              <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Jamstack CMS</li>
+              <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Service</li>
+            </ul>
+          </li>
+          <li>
+            <ul className="list-item-columns g-align-items-end">
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</Link></li>
               <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Style Sheet language for styling.</li>
               <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Language</li>
@@ -111,7 +118,7 @@ const IndexPage = () => (
             <ul className="list-item-columns g-align-items-end">
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://en.wikipedia.org/wiki/Git" target="_blank">Git</Link></li>
               <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Managing site and app changes.</li>
-              <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Version Control</li>
+              <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Tool</li>
             </ul>
           </li>
           <li>
@@ -153,14 +160,14 @@ const IndexPage = () => (
             <ul className="list-item-columns g-align-items-end">
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://en.wikipedia.org/wiki/MySQL" target="_blank">MySQL</Link></li>
               <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Relational DB for Wordpress</li>
-              <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Database</li>
+              <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Tool</li>
             </ul>
           </li>
           <li>
             <ul className="list-item-columns g-align-items-end">
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.netlify.com" target="_blank">Netlify</Link></li>
               <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Jamstack hosting.</li>
-              <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Hosting</li>
+              <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Service</li>
             </ul>
           </li>
           <li>
@@ -168,6 +175,13 @@ const IndexPage = () => (
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://en.wikipedia.org/wiki/Node.js" target="_blank">Node.JS</Link></li>
               <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">JavaScript runtime environment.</li>
               <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Environment</li>
+            </ul>
+          </li>
+          <li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://nuxt.com/" target="_blank">Nuxt</Link></li>
+              <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Vue for Websites</li>
+              <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Framework</li>
             </ul>
           </li>
           <li>
@@ -217,7 +231,7 @@ const IndexPage = () => (
         <ul className="list-bordered resume-list">
           <li>
             <ul className="list-item-columns g-align-items-end">
-              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.ableton.com" target="_blank">Ableton Live</Link></li>
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.ableton.com" target="_blank">Ableton Live 11</Link></li>
               <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Compose music.</li>
               <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">DAW</li>
             </ul>
@@ -307,6 +321,13 @@ const IndexPage = () => (
               <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://www.calendly.com" target="_blank">Calendly</Link></li>
               <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">Scheduling meetings.</li>
               <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Communication</li>
+            </ul>
+          </li>
+          <li>
+            <ul className="list-item-columns g-align-items-end">
+              <li className="t-24 g-m-1-13 g-t-1-5 g-l-1-4 g-1-4"><Link to="https://chat.openai.com/chat" target="_blank">ChatGPT</Link></li>
+              <li className="t-18 g-m-1-13 g-t-5-10 g-l-5-9 g-5-9">AI Language Model</li>
+              <li className="t-18 g-m-1-13 g-t-10-12 g-l-10-12 g-10-12">Productivity</li>
             </ul>
           </li>
           <li>
